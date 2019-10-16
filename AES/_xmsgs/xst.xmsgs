@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">input3&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">input3&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte1</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte1</arg>&gt;
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

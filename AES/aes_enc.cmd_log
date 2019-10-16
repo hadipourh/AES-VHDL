@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.xst" -ofn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.syr" 
+xst -intstyle ise -ifn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.xst" -ofn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.syr" 
+netgen -intstyle ise -ar Structure -tm aes_enc -w -dir netgen/synthesis -ofmt vhdl -sim aes_enc.ngc aes_enc_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.xst" -ofn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.syr" 
+xst -intstyle ise -ifn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.xst" -ofn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.syr" 
+xst -intstyle ise -ifn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.xst" -ofn "C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/aes_enc.syr" 
