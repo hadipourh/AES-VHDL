@@ -69,16 +69,17 @@ begin
 			input_byte  => input_data(31 downto 24),
 			output_byte => temp3(31 downto 24)
 		);
-	xor4_inst : entity work.xor4
-		generic map(
-			size => 32
-		)
-		port map(
-			input1 => temp0,
-			input2 => temp1,
-			input3 => temp2,
-			input4 => temp3,
-			output => output_data
-		);	
+	output_data <= temp0 xor temp1 xor temp2 xor temp3;
+--	xor4_inst : entity work.xor4
+--		generic map(
+--			size => 32
+--		)
+--		port map(
+--			input1 => temp0,
+--			input2 => temp1,
+--			input3 => temp2,
+--			input4 => temp3,
+--			output => output_data
+--		);	
 	
 end architecture rtl;

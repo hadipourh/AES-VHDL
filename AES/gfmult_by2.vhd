@@ -14,15 +14,16 @@ architecture behavioral of gfmult_by2 is
 begin
 	shifted_byte <= input_byte(6 downto 0) & "0";
 	conditional_xor <= "000" & input_byte(7) & input_byte(7) & "0" & input_byte(7) & input_byte(7);
-	xor2_inst : entity work.xor2
-		generic map(
-			size => 8
-		)
-		port map(
-			input1 => conditional_xor,
-			input2 => shifted_byte,
-			output => output_byte
-		);
-	
+	output_byte <= shifted_byte xor conditional_xor;
+--	xor2_inst : entity work.xor2
+--		generic map(
+--			size => 8
+--		)
+--		port map(
+--			input1 => conditional_xor,
+--			input2 => shifted_byte,
+--			output => output_byte
+--		);
+--	
 end architecture behavioral;
 

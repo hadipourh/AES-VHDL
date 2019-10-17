@@ -12,14 +12,14 @@ end add_round_key;
 architecture rtl of add_round_key is
 	
 begin
-	xor2_inst : entity work.xor2
-		generic map(
-			size => 128
-		)
-		port map(
-			input1 => input1,
-			input2 => input2,
-			output => output
-		);
-		
+	output <= input1 xor input2;
+--	xor2_inst : entity work.xor2
+--		generic map(
+--			size => 128
+--		)
+--		port map(
+--			input1 => input1,
+--			input2 => input2,
+--			output => output
+--		);		
 end architecture rtl;

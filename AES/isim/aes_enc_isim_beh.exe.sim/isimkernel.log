@@ -1,0 +1,28 @@
+Command line:
+   aes_enc_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2577
+
+Thu Oct 17 22:10:37 2019
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5206.61 Meg
+
+ Total Signals          : 489
+ Total Nets             : 3692
+ Total Signal Drivers   : 927
+ Total Blocks           : 939
+ Total Primitive Blocks : 800
+ Total Processes        : 927
+ Total Traceable Variables  : 865
+ Total Scalar Nets and Variables : 4909
+
+ Total Simulation Time: 0.453125 sec
+
+ Current Memory Usage: 5206.61 Meg
+
+Thu Oct 17 22:11:00 2019
+

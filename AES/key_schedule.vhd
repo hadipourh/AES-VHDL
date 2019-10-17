@@ -32,5 +32,5 @@ begin
 			round_const => round_const,
 			next_subkey => feedback
 		);
-	round_key <= feedback;
+	round_key <= reg_output;
 end architecture behavioral;

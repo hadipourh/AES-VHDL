@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-16T22:14:13</DateModified>
+  <DateModified>2019-10-18T00:21:15</DateModified>
   <ModuleName>aes_enc</ModuleName>
-  <SummaryTimeStamp>2019-10-16T22:14:13</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES/iseconfig/aes_enc.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Hosein/Desktop/HDL/CryptoExamples/MyAES/AES\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2019-10-18T00:17:41</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/MyAES/AES/iseconfig/aes_enc.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/MyAES/AES\</ImplementationReportsDirectory>
   <DateInitialized>2019-10-16T20:57:08</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
   <viewgroup label="Design Overview" >
-   <view inputState="Unknown" program="implementation" ShowPartitionData="false" type="FPGASummary" file="aes_enc_summary.html" label="Summary" >
+   <view inputState="Unknown" program="implementation" ExpandErrors="false" ShowPartitionData="false" ExpandConstraints="false" type="FPGASummary" file="aes_enc_summary.html" label="Summary" ExpandClockNets="false" ExpandWarnings="false" >
     <toc-item title="Design Overview" target="Design Overview" />
     <toc-item title="Design Utilization Summary" target="Design Utilization Summary" />
     <toc-item title="Performance Summary" target="Performance Summary" />
     <toc-item title="Failing Constraints" target="Failing Constraints" />
     <toc-item title="Detailed Reports" target="Detailed Reports" />
-    <table-item tableState="CollapsedTable" tableKey="DeviceUtilizationSummary(estimatedvalues)" />
+    <table-item tableState="ExpandedTable" tableKey="DeviceUtilizationSummary(estimatedvalues)" />
     <table-item tableState="CollapsedTable" tableKey="DeviceUtilizationSummary(estimatedvalues)" />
    </view>
    <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="aes_enc_envsettings.html" label="System Settings" />

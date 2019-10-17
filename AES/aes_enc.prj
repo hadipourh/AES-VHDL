@@ -1,7 +1,4 @@
-vhdl work "xor2.vhd"
 vhdl work "gfmult_by2.vhd"
-vhdl work "xor4.vhd"
-vhdl work "xor3.vhd"
 vhdl work "sbox.vhd"
 vhdl work "gfmult_by3.vhd"
 vhdl work "reg.vhd"
