@@ -58,8 +58,8 @@ begin
 		ciphertext <= x"320b6a19978511dcfb09dc021d842539";
 		dec_key <= x"a60c63b6c80c3fe18925eec9a8f914d0";
 		rst <= '0';
-		-- Hold reset state for 16 ns		
-		wait for 30 ns;
+		-- Hold reset state for one cycle		
+		wait for clk_period * 1;
 		rst <= '1';
 		wait until done = '1';
 		wait for clk_period/2;			
@@ -78,8 +78,8 @@ begin
 		ciphertext <= x"2e2b34ca59fa4c883b2c8aefd44be966";
 		dec_key <= x"8e188f6fcf51e92311e2923ecb5befb4";
 		rst <= '0';
-		-- Hold reset state for 16 ns		
-		wait for 30 ns;
+		-- Hold reset state for one cycle		
+		wait for clk_period * 1;
 		rst <= '1';
 		wait until done = '1';
 		wait for clk_period/2;			

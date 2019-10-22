@@ -14,16 +14,7 @@ architecture behavior of test_enc is
 			ciphertext : out std_logic_vector(127 downto 0);
 			done       : out std_logic
 		);		
-	end component aes_enc;
-	component controller
-		port(
-			clk            : in  std_logic;
-			rst            : in  std_logic;
-			rconst         : out std_logic_vector(7 downto 0);
-			is_final_round : out std_logic;
-			done           : out std_logic
-		);
-	end component controller;	
+	end component aes_enc;	
 	-- Input signals
 	signal clk : std_logic := '0';
 	signal rst : std_logic := '0';
@@ -32,9 +23,7 @@ architecture behavior of test_enc is
 	
 	-- Output signals
 	signal done : std_logic;
-	signal ciphertext : std_logic_vector(127 downto 0);
-	signal rconst : std_logic_vector(7 downto 0);
-	signal is_final_round : std_logic;	
+	signal ciphertext : std_logic_vector(127 downto 0);	
 	
 	-- Clock period definition
 	constant clk_period : time := 10 ns;
@@ -48,15 +37,7 @@ begin
 			plaintext  => plaintext,
 			ciphertext => ciphertext,
 			done       => done
-		);
-	controller_inst : component controller
-		port map(
-			clk            => clk,
-			rst            => rst,
-			rconst         => rconst,
-			is_final_round => is_final_round,
-			done           => done
-		);
+		);	
 	-- clock process definitions
 	clk_process : process is
 	begin
@@ -77,8 +58,8 @@ begin
 		plaintext <= x"340737e0a29831318d305a88a8f64332";
 		key <= x"3c4fcf098815f7aba6d2ae2816157e2b";
 		rst <= '0';
-		-- Hold reset state for 16 ns		
-		wait for 30 ns;
+		-- Hold reset state for one cycle		
+		wait for clk_period * 1;
 		rst <= '1';
 		wait until done = '1';
 		wait for clk_period/2;			
@@ -97,8 +78,8 @@ begin
 		plaintext <= x"00000000000000000000000000000000";
 		key <= x"00000000000000000000000000000000";
 		rst <= '0';
-		-- Hold reset state for 16 ns		
-		wait for 30 ns;
+		-- Hold reset state for one cycle		
+		wait for clk_period * 1;
 		rst <= '1';
 		wait until done = '1';
 		wait for clk_period/2;			

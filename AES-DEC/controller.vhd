@@ -12,8 +12,7 @@ entity controller is
 	);
 end controller;
 
-architecture behavioral of controller is
-	--constant rcon_table : std_logic_vector(79 downto 0) := x"361a8040201008040201";
+architecture behavioral of controller is	
 	constant rcon_table : std_logic_vector(87 downto 0) := x"0001020408102040801b36";
 	signal round_constant : std_logic_vector(7 downto 0);
 begin

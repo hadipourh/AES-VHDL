@@ -1,6 +1,0 @@
-work	"column_calculator.vhd"
-work	"gfmult_by2.vhd"
-work	"gfmult_by3.vhd"
-work	"mix_columns.vhd"
-work	"xor2.vhd"
-work	"xor4.vhd"

@@ -1,0 +1,34 @@
+ISim log file
+Running: C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\XilinxProject\aes-dec\test_dec_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec/test_dec_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 110 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 110 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 110 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+at 220 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 220 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 220 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
+# restart
+# run 250 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 110 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 110 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 110 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+at 220 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 220 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 220 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
