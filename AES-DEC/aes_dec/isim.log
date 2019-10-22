@@ -1,0 +1,125 @@
+ISim log file
+Running: C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\aes_dec\test_dec_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/aes_dec/test_dec_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 130 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 130 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 130 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+at 260 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 260 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 260 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 130 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 130 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 130 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+at 260 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 260 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 260 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# run 1.00us
+INFO: Simulator is stopped.
+# restart
+# restart
+# run 100 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 100 ns
+at 130 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 130 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 130 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+# run 100 ns
+at 260 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 260 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 260 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 130 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 130 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 130 ns: Note: 340737e0a29831318d305a88a8f64332 (/test_dec/).
+at 260 ns: Note: ---------- Passed ---------- (/test_dec/).
+at 260 ns: Note: ---------- Output must be: ------- (/test_dec/).
+at 260 ns: Note: 00000000000000000000000000000000 (/test_dec/).
+ERROR: Index 95 out of bound 87 downto 0. 
+ERROR: In process controller.vhd:counter 
+ 
+INFO: Simulator is stopped.
+# run all
+INFO: Simulator is stopped.
+# run all
+INFO: Simulator is stopped.
+# run all
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.
+# run 100 ns
+INFO: Simulator is stopped.

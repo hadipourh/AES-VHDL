@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/test_enc_isim_beh.exe -prj C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/test_enc_beh.prj work.test_enc 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/sbox.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/gfmult_by2.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/reg.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/key_sch_round_function.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/column_calculator.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/sub_byte.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/shift_rwos.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/mix_columns.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/key_schedule.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/controller.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/add_round_key.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/aes_enc.vhd" into library work
+Parsing VHDL file "C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/Testbench/enc_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity reg [\reg(128)\]
+Compiling architecture rtl of entity add_round_key [add_round_key_default]
+Compiling architecture behavioral of entity sbox [sbox_default]
+Compiling architecture behavioral of entity sub_byte [sub_byte_default]
+Compiling architecture rtl of entity shift_rows [shift_rows_default]
+Compiling architecture behavioral of entity gfmult_by2 [gfmult_by2_default]
+Compiling architecture rtl of entity column_calculator [column_calculator_default]
+Compiling architecture rtl of entity mix_columns [mix_columns_default]
+Compiling architecture behavioral of entity reg [\reg(8)\]
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling architecture behavioral of entity key_sch_round_function [key_sch_round_function_default]
+Compiling architecture behavioral of entity key_schedule [key_schedule_default]
+Compiling architecture behavioral of entity aes_enc [aes_enc_default]
+Compiling architecture behavior of entity test_enc
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/test_enc_isim_beh.exe
+Fuse Memory Usage: 30336 KB
+Fuse CPU Usage: 1421 ms
