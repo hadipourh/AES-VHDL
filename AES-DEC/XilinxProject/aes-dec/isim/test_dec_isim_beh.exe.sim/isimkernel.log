@@ -2,14 +2,14 @@ Command line:
    test_dec_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1942
+     -socket  2833
 
-Tue Oct 22 19:02:19 2019
+Fri Oct 25 17:02:23 2019
 
 
  Elaboration Time: 0.46875 sec
 
- Current Memory Usage: 5206.71 Meg
+ Current Memory Usage: 5206.17 Meg
 
  Total Signals          : 312
  Total Nets             : 3636
@@ -19,14 +19,10 @@ Tue Oct 22 19:02:19 2019
  Total Processes        : 217
  Total Traceable Variables  : 37
  Total Scalar Nets and Variables : 4230
-In process controller.vhd:counter 
- 
-In process controller.vhd:counter 
- 
 
- Total Simulation Time: 0.640625 sec
+ Total Simulation Time: 0.5625 sec
 
- Current Memory Usage: 5521.28 Meg
+ Current Memory Usage: 5206.17 Meg
 
-Tue Oct 22 19:03:13 2019
+Fri Oct 25 17:02:32 2019
 

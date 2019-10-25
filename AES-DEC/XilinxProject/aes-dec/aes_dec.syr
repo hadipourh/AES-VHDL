@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.33 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: aes_dec.prj
 
@@ -46,7 +46,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "aes_dec"
 Output Format                      : NGC
-Target Device                      : xc6slx4-3-tqg144
+Target Device                      : xc6slx75-3-fgg676
 
 ---- Source Options
 Top Module Name                    : aes_dec
@@ -105,46 +105,46 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\gfmult_by2.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\gfmult_by2.vhd" into library work
 Parsing entity <gfmult_by2>.
 Parsing architecture <behavioral> of entity <gfmult_by2>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\sbox.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\sbox.vhd" into library work
 Parsing entity <sbox>.
 Parsing architecture <behavioral> of entity <sbox>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\column_calculator.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\column_calculator.vhd" into library work
 Parsing entity <column_calculator>.
 Parsing architecture <rtl> of entity <column_calculator>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\reg.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\reg.vhd" into library work
 Parsing entity <reg>.
 Parsing architecture <behavioral> of entity <reg>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_sbox.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_sbox.vhd" into library work
 Parsing entity <inv_sbox>.
 Parsing architecture <behavioral> of entity <inv_sbox>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_key_sch_round_function.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_key_sch_round_function.vhd" into library work
 Parsing entity <inv_ksch_round_func>.
 Parsing architecture <behavioral> of entity <inv_ksch_round_func>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_column_calculator.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_column_calculator.vhd" into library work
 Parsing entity <inv_column_calculator>.
 Parsing architecture <rtl> of entity <inv_column_calculator>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\key_schedule.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\key_schedule.vhd" into library work
 Parsing entity <key_schedule>.
 Parsing architecture <behavioral> of entity <key_schedule>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_sub_byte.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_sub_byte.vhd" into library work
 Parsing entity <inv_sub_byte>.
 Parsing architecture <behavioral> of entity <inv_sub_byte>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_shift_rwos.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_shift_rwos.vhd" into library work
 Parsing entity <inv_shift_rows>.
 Parsing architecture <rtl> of entity <inv_shift_rows>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_mix_columns.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_mix_columns.vhd" into library work
 Parsing entity <inv_mix_columns>.
 Parsing architecture <rtl> of entity <inv_mix_columns>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\controller.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\controller.vhd" into library work
 Parsing entity <controller>.
 Parsing architecture <behavioral> of entity <controller>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\add_round_key.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\add_round_key.vhd" into library work
 Parsing entity <add_round_key>.
 Parsing architecture <rtl> of entity <add_round_key>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\aes_dec.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\aes_dec.vhd" into library work
 Parsing entity <aes_dec>.
 Parsing architecture <rtl> of entity <aes_dec>.
 
@@ -171,14 +171,14 @@ Elaborating entity <inv_shift_rows> (architecture <rtl>) from library <work>.
 Elaborating entity <inv_sub_byte> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <inv_sbox> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_sbox.vhd" Line 273. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_sbox.vhd" Line 289. Case statement is complete. others clause is never selected
 
 Elaborating entity <key_schedule> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <inv_ksch_round_func> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <sbox> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\sbox.vhd" Line 273. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\sbox.vhd" Line 289. Case statement is complete. others clause is never selected
 
 Elaborating entity <controller> (architecture <behavioral>) from library <work>.
 
@@ -187,13 +187,13 @@ Elaborating entity <controller> (architecture <behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <aes_dec>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\aes_dec.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\aes_dec.vhd".
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <aes_dec> synthesized.
 
 Synthesizing Unit <reg>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\reg.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\reg.vhd".
         size = 128
     Found 128-bit register for signal <current_stata>.
     Summary:
@@ -201,73 +201,73 @@ Synthesizing Unit <reg>.
 Unit <reg> synthesized.
 
 Synthesizing Unit <add_round_key>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\add_round_key.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\add_round_key.vhd".
     Summary:
 Unit <add_round_key> synthesized.
 
 Synthesizing Unit <inv_mix_columns>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_mix_columns.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_mix_columns.vhd".
     Summary:
 	no macro.
 Unit <inv_mix_columns> synthesized.
 
 Synthesizing Unit <inv_column_calculator>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_column_calculator.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_column_calculator.vhd".
     Summary:
 Unit <inv_column_calculator> synthesized.
 
 Synthesizing Unit <gfmult_by2>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\gfmult_by2.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\gfmult_by2.vhd".
     Summary:
 Unit <gfmult_by2> synthesized.
 
 Synthesizing Unit <column_calculator>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\column_calculator.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\column_calculator.vhd".
     Summary:
 Unit <column_calculator> synthesized.
 
 Synthesizing Unit <inv_shift_rows>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_shift_rwos.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_shift_rwos.vhd".
     Summary:
 	no macro.
 Unit <inv_shift_rows> synthesized.
 
 Synthesizing Unit <inv_sub_byte>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_sub_byte.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_sub_byte.vhd".
     Summary:
 	no macro.
 Unit <inv_sub_byte> synthesized.
 
 Synthesizing Unit <inv_sbox>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_sbox.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_sbox.vhd".
     Found 256x8-bit Read Only RAM for signal <output_byte>
     Summary:
 	inferred   1 RAM(s).
 Unit <inv_sbox> synthesized.
 
 Synthesizing Unit <key_schedule>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\key_schedule.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\key_schedule.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <key_schedule> synthesized.
 
 Synthesizing Unit <inv_ksch_round_func>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\inv_key_sch_round_function.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\inv_key_sch_round_function.vhd".
     Summary:
 Unit <inv_ksch_round_func> synthesized.
 
 Synthesizing Unit <sbox>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\sbox.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\sbox.vhd".
     Found 256x8-bit Read Only RAM for signal <output_byte>
     Summary:
 	inferred   1 RAM(s).
 Unit <sbox> synthesized.
 
 Synthesizing Unit <controller>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\controller.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-DEC\RTL\controller.vhd".
     Found 4-bit register for signal <counter.i>.
-    Found 5-bit adder for signal <n0036[4:0]> created at line 29.
-    Found 8-bit subtractor for signal <GND_17_o_GND_17_o_sub_5_OUT<7:0>> created at line 29.
+    Found 5-bit adder for signal <n0036[4:0]> created at line 45.
+    Found 8-bit subtractor for signal <GND_17_o_GND_17_o_sub_5_OUT<7:0>> created at line 45.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred   4 D-type flip-flop(s).
@@ -367,7 +367,7 @@ Optimizing unit <inv_column_calculator> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block aes_dec, actual ratio is 66.
+Found area constraint ratio of 100 (+ 5) on block aes_dec, actual ratio is 3.
 FlipFlop controller_inst/counter.i_0 has been replicated 1 time(s)
 FlipFlop controller_inst/counter.i_1 has been replicated 1 time(s)
 FlipFlop controller_inst/counter.i_2 has been replicated 1 time(s)
@@ -424,13 +424,13 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : 6slx4tqg144-3 
+Selected Device : 6slx75fgg676-3 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             264  out of   4800     5%  
- Number of Slice LUTs:                 1474  out of   2400    61%  
-    Number used as Logic:              1474  out of   2400    61%  
+ Number of Slice Registers:             264  out of  93296     0%  
+ Number of Slice LUTs:                 1474  out of  46648     3%  
+    Number used as Logic:              1474  out of  46648     3%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:   1478
@@ -441,12 +441,10 @@ Slice Logic Distribution:
 
 IO Utilization: 
  Number of IOs:                         387
- Number of bonded IOBs:                 387  out of    102   379% (*) 
+ Number of bonded IOBs:                 387  out of    408    94%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
-
-WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
 
 ---------------------------
 Partition Resource Summary:
@@ -573,14 +571,14 @@ clk            |    6.740|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 19.18 secs
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 18.61 secs
  
 --> 
 
 Total memory usage is 4523584 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

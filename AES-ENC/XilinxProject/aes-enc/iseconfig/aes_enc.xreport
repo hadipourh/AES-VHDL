@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-22T19:00:25</DateModified>
+  <DateModified>2019-10-25T14:54:16</DateModified>
   <ModuleName>aes_enc</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-10-25T14:06:42</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc/iseconfig/aes_enc.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\</ImplementationReportsDirectory>
-  <DateInitialized>2019-10-22T18:44:12</DateInitialized>
+  <DateInitialized>2019-10-25T14:06:00</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

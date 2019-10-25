@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-22T19:01:06</DateModified>
+  <DateModified>2019-10-25T17:13:55</DateModified>
   <ModuleName>aes_dec</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-10-25T16:05:35</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec/iseconfig/aes_dec.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec</ImplementationReportsDirectory>
-  <DateInitialized>2019-10-22T19:01:06</DateInitialized>
+  <DateInitialized>2019-10-25T15:00:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
@@ -17,6 +17,8 @@
     <toc-item title="Performance Summary" target="Performance Summary" />
     <toc-item title="Failing Constraints" target="Failing Constraints" />
     <toc-item title="Detailed Reports" target="Detailed Reports" />
+    <table-item tableKey="DeviceUtilizationSummary(estimatedvalues)" tableState="CollapsedTable" />
+    <table-item tableKey="DeviceUtilizationSummary(estimatedvalues)" tableState="CollapsedTable" />
    </view>
    <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="aes_dec_envsettings.html" label="System Settings" />
    <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="aes_dec_map.xrpt" label="IOB Properties" />

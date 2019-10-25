@@ -3,12 +3,12 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Tue Oct 22 19:01:27 2019">
+<application name="pn" timeStamp="Fri Oct 25 16:05:41 2019">
 <section name="Project Information" visible="false">
-<property name="ProjectID" value="AC7CDD3BD6CE4402B274EB5D405801E2" type="project"/>
+<property name="ProjectID" value="57DFA85E42744374AB968CC416D7102A" type="project"/>
 <property name="ProjectIteration" value="0" type="project"/>
 <property name="ProjectFile" value="C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec/aes-dec.xise" type="project"/>
-<property name="ProjectCreationTimestamp" value="2019-10-22T19:00:55" type="project"/>
+<property name="ProjectCreationTimestamp" value="2019-10-25T14:59:45" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
 <property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
@@ -17,22 +17,23 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
 <property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
 <property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
-<property name="PROP_SelectedInstanceHierarchicalPath" value="/aes_dec" type="process"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/test_dec" type="process"/>
 <property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
 <property name="PROP_SynthTopFile" value="changed" type="process"/>
 <property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
 <property name="PROP_UseSmartGuide" value="false" type="design"/>
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
-<property name="PROP_intProjectCreationTimestamp" value="2019-10-22T19:00:55" type="design"/>
-<property name="PROP_intWbtProjectID" value="AC7CDD3BD6CE4402B274EB5D405801E2" type="design"/>
+<property name="PROP_intProjectCreationTimestamp" value="2019-10-25T14:59:45" type="design"/>
+<property name="PROP_intWbtProjectID" value="57DFA85E42744374AB968CC416D7102A" type="design"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
-<property name="PROP_selectedSimRootSourceNode_behav" value="work.aes_dec" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.test_dec" type="process"/>
 <property name="PROP_AutoTop" value="true" type="design"/>
 <property name="PROP_DevFamily" value="Spartan6" type="design"/>
-<property name="PROP_DevDevice" value="xc6slx4" type="design"/>
+<property name="PROP_DevDevice" value="xc6slx75" type="design"/>
 <property name="PROP_DevFamilyPMName" value="spartan6" type="design"/>
-<property name="PROP_DevPackage" value="tqg144" type="design"/>
+<property name="PROP_ISimSimulationRunTime_behav_tb" value="120ns" type="process"/>
+<property name="PROP_DevPackage" value="fgg676" type="design"/>
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>

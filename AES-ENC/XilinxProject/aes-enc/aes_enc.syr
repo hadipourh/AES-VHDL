@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: aes_enc.prj
 
@@ -46,7 +46,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "aes_enc"
 Output Format                      : NGC
-Target Device                      : xc6slx4-3-tqg144
+Target Device                      : xc7z010-3-clg400
 
 ---- Source Options
 Top Module Name                    : aes_enc
@@ -70,7 +70,7 @@ LUT Combining                      : Auto
 Reduce Control Sets                : Auto
 Add IO Buffers                     : YES
 Global Maximum Fanout              : 100000
-Add Generic Clock Buffer(BUFG)     : 16
+Add Generic Clock Buffer(BUFG)     : 32
 Register Duplication               : YES
 Optimize Instantiated Primitives   : NO
 Use Clock Enable                   : Auto
@@ -105,40 +105,40 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\sbox.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\sbox.vhd" into library work
 Parsing entity <sbox>.
 Parsing architecture <behavioral> of entity <sbox>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\gfmult_by2.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\gfmult_by2.vhd" into library work
 Parsing entity <gfmult_by2>.
 Parsing architecture <behavioral> of entity <gfmult_by2>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\reg.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\reg.vhd" into library work
 Parsing entity <reg>.
 Parsing architecture <behavioral> of entity <reg>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\key_sch_round_function.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\key_sch_round_function.vhd" into library work
 Parsing entity <key_sch_round_function>.
 Parsing architecture <behavioral> of entity <key_sch_round_function>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\column_calculator.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\column_calculator.vhd" into library work
 Parsing entity <column_calculator>.
 Parsing architecture <rtl> of entity <column_calculator>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\sub_byte.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\sub_byte.vhd" into library work
 Parsing entity <sub_byte>.
 Parsing architecture <behavioral> of entity <sub_byte>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\shift_rwos.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\shift_rwos.vhd" into library work
 Parsing entity <shift_rows>.
 Parsing architecture <rtl> of entity <shift_rows>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\mix_columns.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\mix_columns.vhd" into library work
 Parsing entity <mix_columns>.
 Parsing architecture <rtl> of entity <mix_columns>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\key_schedule.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\key_schedule.vhd" into library work
 Parsing entity <key_schedule>.
 Parsing architecture <behavioral> of entity <key_schedule>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\controller.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\controller.vhd" into library work
 Parsing entity <controller>.
 Parsing architecture <behavioral> of entity <controller>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\add_round_key.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\add_round_key.vhd" into library work
 Parsing entity <add_round_key>.
 Parsing architecture <rtl> of entity <add_round_key>.
-Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\aes_enc.vhd" into library work
+Parsing VHDL file "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\aes_enc.vhd" into library work
 Parsing entity <aes_enc>.
 Parsing architecture <behavioral> of entity <aes_enc>.
 
@@ -155,7 +155,7 @@ Elaborating entity <add_round_key> (architecture <rtl>) from library <work>.
 Elaborating entity <sub_byte> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <sbox> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\sbox.vhd" Line 273. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\sbox.vhd" Line 289. Case statement is complete. others clause is never selected
 
 Elaborating entity <shift_rows> (architecture <rtl>) from library <work>.
 
@@ -178,13 +178,13 @@ Elaborating entity <key_sch_round_function> (architecture <behavioral>) from lib
 =========================================================================
 
 Synthesizing Unit <aes_enc>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\aes_enc.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\aes_enc.vhd".
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <aes_enc> synthesized.
 
 Synthesizing Unit <reg_1>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\reg.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\reg.vhd".
         size = 128
     Found 128-bit register for signal <current_stata>.
     Summary:
@@ -192,53 +192,53 @@ Synthesizing Unit <reg_1>.
 Unit <reg_1> synthesized.
 
 Synthesizing Unit <add_round_key>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\add_round_key.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\add_round_key.vhd".
     Summary:
 Unit <add_round_key> synthesized.
 
 Synthesizing Unit <sub_byte>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\sub_byte.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\sub_byte.vhd".
     Summary:
 	no macro.
 Unit <sub_byte> synthesized.
 
 Synthesizing Unit <sbox>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\sbox.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\sbox.vhd".
     Found 256x8-bit Read Only RAM for signal <output_byte>
     Summary:
 	inferred   1 RAM(s).
 Unit <sbox> synthesized.
 
 Synthesizing Unit <shift_rows>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\shift_rwos.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\shift_rwos.vhd".
     Summary:
 	no macro.
 Unit <shift_rows> synthesized.
 
 Synthesizing Unit <mix_columns>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\mix_columns.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\mix_columns.vhd".
     Summary:
 	no macro.
 Unit <mix_columns> synthesized.
 
 Synthesizing Unit <column_calculator>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\column_calculator.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\column_calculator.vhd".
     Summary:
 Unit <column_calculator> synthesized.
 
 Synthesizing Unit <gfmult_by2>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\gfmult_by2.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\gfmult_by2.vhd".
     Summary:
 Unit <gfmult_by2> synthesized.
 
 Synthesizing Unit <controller>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\controller.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\controller.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <controller> synthesized.
 
 Synthesizing Unit <reg_2>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\reg.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\reg.vhd".
         size = 8
     Found 8-bit register for signal <current_stata>.
     Summary:
@@ -246,13 +246,13 @@ Synthesizing Unit <reg_2>.
 Unit <reg_2> synthesized.
 
 Synthesizing Unit <key_schedule>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\key_schedule.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\key_schedule.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <key_schedule> synthesized.
 
 Synthesizing Unit <key_sch_round_function>.
-    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\key_sch_round_function.vhd".
+    Related source file is "C:\Users\Hosein\Documents\MyUniverse\Mathematics\E-Books\Cryptography\Alim\AES-VHDL\AES-ENC\RTL\key_sch_round_function.vhd".
     Summary:
 Unit <key_sch_round_function> synthesized.
 
@@ -380,7 +380,7 @@ Optimizing unit <key_schedule> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block aes_enc, actual ratio is 50.
+Found area constraint ratio of 100 (+ 5) on block aes_enc, actual ratio is 6.
 
 Final Macro Processing ...
 
@@ -425,7 +425,7 @@ Primitive and Black Box Usage:
 # FlipFlops/Latches                : 264
 #      FD                          : 264
 # RAMS                             : 2
-#      RAMB8BWER                   : 2
+#      RAMB18E1                    : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 386
@@ -435,13 +435,13 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : 6slx4tqg144-3 
+Selected Device : 7z010clg400-3 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             264  out of   4800     5%  
- Number of Slice LUTs:                 1104  out of   2400    46%  
-    Number used as Logic:              1104  out of   2400    46%  
+ Number of Slice Registers:             264  out of  35200     0%  
+ Number of Slice LUTs:                 1104  out of  17600     6%  
+    Number used as Logic:              1104  out of  17600     6%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:   1104
@@ -452,12 +452,12 @@ Slice Logic Distribution:
 
 IO Utilization: 
  Number of IOs:                         387
- Number of bonded IOBs:                 387  out of    102   379% (*) 
+ Number of bonded IOBs:                 387  out of    100   387% (*) 
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                1  out of     12     8%  
+ Number of Block RAM/FIFO:                1  out of     60     1%  
     Number using Block RAM only:          1
- Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
 
 WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
 
@@ -487,15 +487,19 @@ clk                                | BUFGP                  | 266   |
 
 Asynchronous Control Signals Information:
 ----------------------------------------
-No asynchronous control signals found in this design
+-----------------------------------+-----------------------------------------------------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                                                               | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------+-------+
+N0(XST_GND:G)                      | NONE(key_schedule_inst_key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte1)| 4     |
+-----------------------------------+-----------------------------------------------------------------------------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 5.813ns (Maximum Frequency: 172.031MHz)
-   Minimum input arrival time before clock: 4.823ns
-   Maximum output required time after clock: 5.588ns
+   Minimum period: 2.918ns (Maximum Frequency: 342.724MHz)
+   Minimum input arrival time before clock: 1.453ns
+   Maximum output required time after clock: 1.343ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -504,36 +508,31 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 5.813ns (frequency: 172.031MHz)
+  Clock period: 2.918ns (frequency: 342.724MHz)
   Total number of paths / destination ports: 54387 / 296
 -------------------------------------------------------------------------
-Delay:               5.813ns (Levels of Logic = 6)
-  Source:            key_schedule_inst/reg_inst/current_stata_15 (FF)
-  Destination:       reg_inst/current_stata_103 (FF)
+Delay:               2.918ns (Levels of Logic = 1)
+  Source:            key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
+  Destination:       key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: key_schedule_inst/reg_inst/current_stata_15 to reg_inst/current_stata_103
+  Data Path: key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 to key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               5   0.447   0.715  key_schedule_inst/reg_inst/current_stata_15 (key_schedule_inst/reg_inst/current_stata_15)
-     LUT2:I1->O           33   0.205   1.670  add_round_key_inst/Mxor_output_15_xo<0>1 (ciphertext_15_OBUF)
-     LUT6:I0->O            1   0.203   0.000  sub_byte_inst_gen[1].sbox_inst/Mram_output_byte14 (sub_byte_inst_gen[1].sbox_inst/Mram_output_byte14)
-     MUXF7:I1->O           1   0.140   0.000  sub_byte_inst_gen[1].sbox_inst/Mram_output_byte14_f7 (sub_byte_inst_gen[1].sbox_inst/Mram_output_byte14_f7)
-     MUXF8:I1->O          10   0.152   1.085  sub_byte_inst_gen[1].sbox_inst/Mram_output_byte14_f8 (subbox_output<15>)
-     LUT4:I1->O            4   0.205   0.684  mix_columns_inst/mix_columns_inst3/Mxor_temp_7_xo<0>1 (mix_columns_inst/mix_columns_inst3/temp<7>)
-     LUT6:I5->O            1   0.205   0.000  Mmux_reg_input31 (reg_input<127>)
-     FD:D                      0.102          reg_inst/current_stata_127
+     RAMB18E1:CLKARDCLK->DOBDO7    4   1.846   0.303  key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (key_schedule_inst/key_sch_round_function_inst/substitued_sk<15>)
+     LUT6:I5->O            2   0.043   0.283  key_schedule_inst/reg_input<103> (key_schedule_inst/reg_input<103>)
+     RAMB18E1:ADDRARDADDR10        0.442          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
     ----------------------------------------
-    Total                      5.813ns (1.659ns logic, 4.154ns route)
-                                       (28.5% logic, 71.5% route)
+    Total                      2.918ns (2.331ns logic, 0.587ns route)
+                                       (79.9% logic, 20.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 584 / 296
 -------------------------------------------------------------------------
-Offset:              4.823ns (Levels of Logic = 2)
+Offset:              1.453ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
   Destination Clock: clk rising
@@ -542,33 +541,33 @@ Offset:              4.823ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           264   1.222   2.432  rst_IBUF (rst_IBUF)
-     LUT6:I0->O            2   0.203   0.616  key_schedule_inst/reg_input<96> (key_schedule_inst/reg_input<96>)
-     RAMB8BWER:ADDRAWRADDR3        0.350          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
+     IBUF:I->O           264   0.000   0.685  rst_IBUF (rst_IBUF)
+     LUT6:I1->O            2   0.043   0.283  key_schedule_inst/reg_input<96> (key_schedule_inst/reg_input<96>)
+     RAMB18E1:ADDRARDADDR3        0.442          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
     ----------------------------------------
-    Total                      4.823ns (1.775ns logic, 3.048ns route)
-                                       (36.8% logic, 63.2% route)
+    Total                      1.453ns (0.485ns logic, 0.968ns route)
+                                       (33.4% logic, 66.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 264 / 129
 -------------------------------------------------------------------------
-Offset:              5.588ns (Levels of Logic = 3)
-  Source:            controller_inst/reg_inst/current_stata_1 (FF)
+Offset:              1.343ns (Levels of Logic = 3)
+  Source:            controller_inst/reg_inst/current_stata_4 (FF)
   Destination:       done (PAD)
   Source Clock:      clk rising
 
-  Data Path: controller_inst/reg_inst/current_stata_1 to done
+  Data Path: controller_inst/reg_inst/current_stata_4 to done
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               7   0.447   1.002  controller_inst/reg_inst/current_stata_1 (controller_inst/reg_inst/current_stata_1)
-     LUT3:I0->O            1   0.205   0.580  controller_inst/done<7>_SW0 (N260)
-     LUT6:I5->O            1   0.205   0.579  controller_inst/done<7> (done_OBUF)
-     OBUF:I->O                 2.571          done_OBUF (done)
+     FD:C->Q               7   0.232   0.456  controller_inst/reg_inst/current_stata_4 (controller_inst/reg_inst/current_stata_4)
+     LUT3:I0->O            1   0.043   0.289  controller_inst/done<7>_SW0 (N260)
+     LUT6:I5->O            1   0.043   0.279  controller_inst/done<7> (done_OBUF)
+     OBUF:I->O                 0.000          done_OBUF (done)
     ----------------------------------------
-    Total                      5.588ns (3.428ns logic, 2.160ns route)
-                                       (61.3% logic, 38.7% route)
+    Total                      1.343ns (0.318ns logic, 1.025ns route)
+                                       (23.7% logic, 76.3% route)
 
 =========================================================================
 
@@ -580,18 +579,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    5.813|         |         |         |
+clk            |    2.918|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.84 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.89 secs
  
 --> 
 
-Total memory usage is 4523584 kilobytes
+Total memory usage is 4656608 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

@@ -29,13 +29,15 @@ architecture behavior of test_dec is
 			ciphertext : in  std_logic_vector(127 downto 0);
 			plaintext  : out std_logic_vector(127 downto 0);
 			done       : out std_logic
-		);
-	end component aes_dec;	
+		);	
+	end component aes_dec;
+	
+	
 	-- Input signals
 	signal clk : std_logic := '0';
 	signal rst : std_logic := '0';
 	signal ciphertext : std_logic_vector(127 downto 0);
-	signal dec_key : std_logic_vector(127 downto 0);	
+	signal dec_key : std_logic_vector(127 downto 0);
 	
 	-- Output signals
 	signal done : std_logic;
@@ -53,7 +55,8 @@ begin
 			ciphertext => ciphertext,
 			plaintext  => plaintext,
 			done       => done
-		);	
+		);
+			
 	-- clock process definitions
 	clk_process : process is
 	begin
@@ -86,7 +89,7 @@ begin
 		end if;
 		report "---------- Output must be: -------";
 		report "340737e0a29831318d305a88a8f64332";		
-		--------------------------------------------
+		-------------------------------------------- 
 		-- Initialize Inputs
 		--p = 00000000000000000000000000000000
 		--k = 00000000000000000000000000000000
@@ -110,4 +113,3 @@ begin
 	end process sim_proc;
 	
 end architecture behavior;
-

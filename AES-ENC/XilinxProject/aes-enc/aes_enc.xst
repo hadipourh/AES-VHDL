@@ -4,7 +4,7 @@ run
 -ifn aes_enc.prj
 -ofn aes_enc
 -ofmt NGC
--p xc6slx4-3-tqg144
+-p xc7z010-3-clg400
 -top aes_enc
 -opt_mode Speed
 -opt_level 1
@@ -40,7 +40,7 @@ run
 -use_dsp48 Auto
 -iobuf YES
 -max_fanout 100000
--bufg 16
+-bufg 32
 -register_duplication YES
 -register_balancing No
 -optimize_primitives NO

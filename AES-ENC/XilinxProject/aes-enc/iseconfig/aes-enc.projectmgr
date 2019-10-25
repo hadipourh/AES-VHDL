@@ -7,20 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|aes_enc.vhd/controller_inst - controller - behavioral</ClosedNode>
-         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|aes_enc.vhd/key_schedule_inst - key_schedule - behavioral</ClosedNode>
-         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|aes_enc.vhd/mix_columns_inst - mix_columns - rtl</ClosedNode>
-         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|aes_enc.vhd/sub_byte_inst - sub_byte - behavioral</ClosedNode>
-         <ClosedNode>/round_function - rtl C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|round_function.vhd</ClosedNode>
+         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|RTL|aes_enc.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>round_function - rtl (C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/round_function.vhd)</SelectedItem>
+         <SelectedItem>aes_enc - behavioral (C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/RTL/aes_enc.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b1000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b10000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000010a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000010a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>round_function - rtl (C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/round_function.vhd)</CurrentItem>
+      <CurrentItem>aes_enc - behavioral (C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/RTL/aes_enc.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -68,19 +64,18 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|aes_enc.vhd</ClosedNode>
-         <ClosedNode>/round_function - rtl C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|round_function.vhd</ClosedNode>
+         <ClosedNode>/aes_enc - behavioral C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|RTL|aes_enc.vhd</ClosedNode>
          <ClosedNode>/test_enc - behavior C:|Users|Hosein|Documents|MyUniverse|Mathematics|E-Books|Cryptography|Alim|AES-VHDL|AES-ENC|Testbench|enc_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -88,24 +83,24 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000120000000020000000000000000000000000200000064ffffffff000000810000000300000002000001200000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000ed000000020000000000000000000000000200000064ffffffff000000810000000300000002000000ed0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>test_enc - behavior (C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/Testbench/enc_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
          <ClosedNode>ISim Simulator</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -121,5 +116,5 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
 </Project>

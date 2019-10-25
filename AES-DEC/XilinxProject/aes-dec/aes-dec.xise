@@ -15,63 +15,63 @@
   <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="../../add_round_key.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/add_round_key.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="13"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="13"/>
     </file>
-    <file xil_pn:name="../../aes_dec.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/aes_dec.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="14"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="14"/>
     </file>
-    <file xil_pn:name="../../column_calculator.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/column_calculator.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="../../controller.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/controller.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
     </file>
-    <file xil_pn:name="../../gfmult_by2.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/gfmult_by2.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="../../inv_column_calculator.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_column_calculator.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
     </file>
-    <file xil_pn:name="../../inv_key_sch_round_function.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_key_sch_round_function.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
     </file>
-    <file xil_pn:name="../../inv_mix_columns.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_mix_columns.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="11"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="11"/>
     </file>
-    <file xil_pn:name="../../inv_sbox.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_sbox.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
     </file>
-    <file xil_pn:name="../../inv_shift_rwos.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_shift_rwos.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
     </file>
-    <file xil_pn:name="../../inv_sub_byte.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/inv_sub_byte.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="9"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
     </file>
-    <file xil_pn:name="../../key_schedule.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/key_schedule.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
     </file>
-    <file xil_pn:name="../../mix_columns.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/mix_columns.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../reg.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/reg.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
-    <file xil_pn:name="../../sbox.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../RTL/sbox.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
     </file>
@@ -107,6 +107,7 @@
     <property xil_pn:name="Bring Out Global Set/Reset Net as a Port" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Bring Out Global Tristate Net as a Port" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Bus Delimiter" xil_pn:value="&lt;>" xil_pn:valueState="default"/>
+    <property xil_pn:name="CLB Pack Factor Percentage" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Case" xil_pn:value="Maintain" xil_pn:valueState="default"/>
     <property xil_pn:name="Case Implementation Style" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Change Device Speed To" xil_pn:value="-3" xil_pn:valueState="default"/>
@@ -119,11 +120,13 @@
     <property xil_pn:name="Compile for HDL Debugging" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Clk (Configuration Pins)" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin Done" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
+    <property xil_pn:name="Configuration Pin HSWAPEN" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin Init" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin M0" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin M1" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin M2" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Pin Program" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
+    <property xil_pn:name="Configuration Rate" xil_pn:value="Default (6)" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Rate spartan6" xil_pn:value="2" xil_pn:valueState="default"/>
     <property xil_pn:name="Configuration Rate virtex5" xil_pn:value="3" xil_pn:valueState="default"/>
     <property xil_pn:name="Correlate Output to Input Design" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -140,8 +143,9 @@
     <property xil_pn:name="Cycles for First BPI Page Read" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="DCI Update Mode" xil_pn:value="As Required" xil_pn:valueState="default"/>
     <property xil_pn:name="DSP Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
+    <property xil_pn:name="Decoder Extraction" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Delay Values To Be Read from SDF" xil_pn:value="Setup Time" xil_pn:valueState="default"/>
-    <property xil_pn:name="Device" xil_pn:value="xc6slx4" xil_pn:valueState="default"/>
+    <property xil_pn:name="Device" xil_pn:value="xc6slx75" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan6" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Speed Grade/Select ABS Minimum" xil_pn:value="-3" xil_pn:valueState="default"/>
     <property xil_pn:name="Disable Detailed Package Model Insertion" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -177,6 +181,7 @@
     <property xil_pn:name="Exclude Compilation of EDK Sub-Libraries" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Extra Cost Tables Map" xil_pn:value="0" xil_pn:valueState="default"/>
     <property xil_pn:name="Extra Cost Tables Map virtex6" xil_pn:value="0" xil_pn:valueState="default"/>
+    <property xil_pn:name="Extra Effort" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Extra Effort (Highest PAR level only)" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="FPGA Start-Up Clock" xil_pn:value="CCLK" xil_pn:valueState="default"/>
     <property xil_pn:name="FSM Encoding Algorithm" xil_pn:value="Auto" xil_pn:valueState="default"/>
@@ -218,7 +223,7 @@
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|aes_dec|rtl" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="../../aes_dec.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="../../RTL/aes_dec.vhd" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/aes_dec" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -242,7 +247,9 @@
     <property xil_pn:name="Launch SDK after Export" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Library for Verilog Sources" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Load glbl" xil_pn:value="true" xil_pn:valueState="default"/>
+    <property xil_pn:name="Logical Shifter Extraction" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Manual Implementation Compile Order" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Map Effort Level" xil_pn:value="High" xil_pn:valueState="default"/>
     <property xil_pn:name="Map Slice Logic into Unused Block RAMs" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Mask Pins for Multi-Pin Wake-Up Suspend Mode spartan6" xil_pn:value="0x00" xil_pn:valueState="default"/>
     <property xil_pn:name="Max Fanout" xil_pn:value="100000" xil_pn:valueState="default"/>
@@ -258,14 +265,19 @@
     <property xil_pn:name="MultiBoot: Starting Address for Next Configuration spartan6" xil_pn:value="0x00000000" xil_pn:valueState="default"/>
     <property xil_pn:name="MultiBoot: Use New Mode for Next Configuration spartan6" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="MultiBoot: User-Defined Register for Failsafe Scheme spartan6" xil_pn:value="0x0000" xil_pn:valueState="default"/>
+    <property xil_pn:name="Multiplier Style" xil_pn:value="Auto" xil_pn:valueState="default"/>
+    <property xil_pn:name="Mux Extraction" xil_pn:value="Yes" xil_pn:valueState="default"/>
+    <property xil_pn:name="Mux Style" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Netlist Hierarchy" xil_pn:value="As Optimized" xil_pn:valueState="default"/>
     <property xil_pn:name="Netlist Translation Type" xil_pn:value="Timestamp" xil_pn:valueState="default"/>
     <property xil_pn:name="Number of Clock Buffers" xil_pn:value="16" xil_pn:valueState="default"/>
     <property xil_pn:name="Number of Paths in Error/Verbose Report" xil_pn:value="3" xil_pn:valueState="default"/>
     <property xil_pn:name="Number of Paths in Error/Verbose Report Post Trace" xil_pn:value="3" xil_pn:valueState="default"/>
+    <property xil_pn:name="Optimization Effort" xil_pn:value="Normal" xil_pn:valueState="default"/>
     <property xil_pn:name="Optimization Effort spartan6" xil_pn:value="Normal" xil_pn:valueState="default"/>
     <property xil_pn:name="Optimization Effort virtex6" xil_pn:value="Normal" xil_pn:valueState="default"/>
     <property xil_pn:name="Optimization Goal" xil_pn:value="Speed" xil_pn:valueState="default"/>
+    <property xil_pn:name="Optimization Strategy (Cover Mode)" xil_pn:value="Area" xil_pn:valueState="default"/>
     <property xil_pn:name="Optimize Instantiated Primitives" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Other Bitgen Command Line Options" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Other Bitgen Command Line Options spartan6" xil_pn:value="" xil_pn:valueState="default"/>
@@ -289,13 +301,15 @@
     <property xil_pn:name="Overwrite Compiled Libraries" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers into IOBs" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers/Latches into IOBs" xil_pn:value="Off" xil_pn:valueState="default"/>
-    <property xil_pn:name="Package" xil_pn:value="tqg144" xil_pn:valueState="default"/>
+    <property xil_pn:name="Package" xil_pn:value="fgg676" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Perform Advanced Analysis" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Perform Advanced Analysis Post Trace" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Perform Timing-Driven Packing and Placement" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Place &amp; Route Effort Level (Overall)" xil_pn:value="High" xil_pn:valueState="default"/>
     <property xil_pn:name="Place And Route Mode" xil_pn:value="Normal Place and Route" xil_pn:valueState="default"/>
     <property xil_pn:name="Place MultiBoot Settings into Bitstream spartan6" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Place MultiBoot Settings into Bitstream virtex7" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Placer Effort Level (Overrides Overall Level)" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Placer Effort Level Map" xil_pn:value="High" xil_pn:valueState="default"/>
     <property xil_pn:name="Placer Extra Effort Map" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Port to be used" xil_pn:value="Auto - default" xil_pn:valueState="default"/>
@@ -304,11 +318,13 @@
     <property xil_pn:name="Post Synthesis Simulation Model Name" xil_pn:value="aes_dec_synthesis.vhd" xil_pn:valueState="default"/>
     <property xil_pn:name="Post Translate Simulation Model Name" xil_pn:value="aes_dec_translate.vhd" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Down Device if Over Safe Temperature" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Power Reduction Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Map spartan6" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Map virtex6" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Xst" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Priority Encoder Extraction" xil_pn:value="Yes" xil_pn:valueState="default"/>
     <property xil_pn:name="Produce Verbose Report" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Project Description" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store all values" xil_pn:valueState="default"/>
@@ -320,6 +336,7 @@
     <property xil_pn:name="Reduce Control Sets" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Regenerate Core" xil_pn:value="Under Current Project Setting" xil_pn:valueState="default"/>
     <property xil_pn:name="Register Balancing" xil_pn:value="No" xil_pn:valueState="default"/>
+    <property xil_pn:name="Register Duplication" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="Register Duplication Map" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="Register Duplication Xst" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Register Ordering spartan6" xil_pn:value="4" xil_pn:valueState="default"/>
@@ -337,12 +354,14 @@
     <property xil_pn:name="Report Type Post Trace" xil_pn:value="Verbose Report" xil_pn:valueState="default"/>
     <property xil_pn:name="Report Unconstrained Paths" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Report Unconstrained Paths Post Trace" xil_pn:value="" xil_pn:valueState="default"/>
+    <property xil_pn:name="Reset DCM if SHUTDOWN &amp; AGHIGH performed" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Reset On Configuration Pulse Width" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Resource Sharing" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Retain Hierarchy" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Retry Configuration if CRC Error Occurs spartan6" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Revision Select" xil_pn:value="00" xil_pn:valueState="default"/>
     <property xil_pn:name="Revision Select Tristate" xil_pn:value="Disable" xil_pn:valueState="default"/>
+    <property xil_pn:name="Router Effort Level (Overrides Overall Level)" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Run Design Rules Checker (DRC)" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Run for Specified Time" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Run for Specified Time Map" xil_pn:value="true" xil_pn:valueState="default"/>
@@ -365,11 +384,12 @@
     <property xil_pn:name="Shift Register Minimum Size virtex6" xil_pn:value="2" xil_pn:valueState="default"/>
     <property xil_pn:name="Show All Models" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Model Target" xil_pn:value="VHDL" xil_pn:valueState="default"/>
-    <property xil_pn:name="Simulation Run Time ISim" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
+    <property xil_pn:name="Simulation Run Time ISim" xil_pn:value="120 ns" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Simulation Run Time Map" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Run Time Par" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulation Run Time Translate" xil_pn:value="1000 ns" xil_pn:valueState="default"/>
     <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Slice Packing" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Slice Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify 'define Macro Name and Value" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.test_dec" xil_pn:valueState="default"/>
@@ -379,10 +399,12 @@
     <property xil_pn:name="Speed Grade" xil_pn:value="-3" xil_pn:valueState="default"/>
     <property xil_pn:name="Starting Address for Fallback Configuration virtex7" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Starting Placer Cost Table (1-100)" xil_pn:value="1" xil_pn:valueState="default"/>
+    <property xil_pn:name="Starting Placer Cost Table (1-100) Map" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="Starting Placer Cost Table (1-100) Map spartan6" xil_pn:value="1" xil_pn:valueState="default"/>
+    <property xil_pn:name="Starting Placer Cost Table (1-100) Par" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
     <property xil_pn:name="Target Simulator" xil_pn:value="Please Specify" xil_pn:valueState="default"/>
-    <property xil_pn:name="Timing Mode Map" xil_pn:value="Performance Evaluation" xil_pn:valueState="default"/>
+    <property xil_pn:name="Timing Mode Map" xil_pn:value="Non Timing Driven" xil_pn:valueState="default"/>
     <property xil_pn:name="Timing Mode Par" xil_pn:value="Performance Evaluation" xil_pn:valueState="default"/>
     <property xil_pn:name="Top-Level Module Name in Output Netlist" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL" xil_pn:valueState="default"/>
@@ -413,13 +435,17 @@
     <property xil_pn:name="Use Synchronous Set" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Synthesis Constraints File" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="User Access Register Value" xil_pn:value="None" xil_pn:valueState="default"/>
+    <property xil_pn:name="User Browsed Strategy Files" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="UserID Code (8 Digit Hexadecimal)" xil_pn:value="0xFFFFFFFF" xil_pn:valueState="default"/>
     <property xil_pn:name="VCCAUX Voltage Level spartan6" xil_pn:value="2.5V" xil_pn:valueState="default"/>
     <property xil_pn:name="VHDL Source Analysis Standard" xil_pn:value="VHDL-93" xil_pn:valueState="default"/>
     <property xil_pn:name="Value Range Check" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Verilog 2001 Xst" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Verilog Macros" xil_pn:value="" xil_pn:valueState="default"/>
+    <property xil_pn:name="Wait for DCI Match (Output Events) virtex2" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Wait for DCI Match (Output Events) virtex5" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Wait for DCM and PLL Lock (Output Events) spartan6" xil_pn:value="Default (NoWait)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Wait for DLL Lock (Output Events)" xil_pn:value="Default (NoWait)" xil_pn:valueState="default"/>
     <property xil_pn:name="Wait for PLL Lock (Output Events) virtex6" xil_pn:value="No Wait" xil_pn:valueState="default"/>
     <property xil_pn:name="Wakeup Clock spartan6" xil_pn:value="Startup Clock" xil_pn:valueState="default"/>
     <property xil_pn:name="Watchdog Timer Mode 7-series" xil_pn:value="Off" xil_pn:valueState="default"/>
@@ -427,6 +453,7 @@
     <property xil_pn:name="Watchdog Timer Value spartan6" xil_pn:value="0xFFFF" xil_pn:valueState="default"/>
     <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
     <property xil_pn:name="Write Timing Constraints" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="XOR Collapsing" xil_pn:value="true" xil_pn:valueState="default"/>
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
     <!--                                                                                  -->
@@ -439,8 +466,8 @@
     <property xil_pn:name="PROP_PostSynthSimTop" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_PostXlateSimTop" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_PreSynthesis" xil_pn:value="PreSynthesis" xil_pn:valueState="default"/>
-    <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2019-10-22T19:00:55" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="AC7CDD3BD6CE4402B274EB5D405801E2" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2019-10-25T14:59:45" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="57DFA85E42744374AB968CC416D7102A" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
   </properties>

@@ -4,7 +4,7 @@ run
 -ifn aes_dec.prj
 -ofn aes_dec
 -ofmt NGC
--p xc6slx4-3-tqg144
+-p xc6slx75-3-fgg676
 -top aes_dec
 -opt_mode Speed
 -opt_level 1
