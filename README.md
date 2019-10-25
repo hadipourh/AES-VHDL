@@ -8,6 +8,7 @@ VHDL Implementation of AES Algorithm
 ![AES-Encryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_enc.svg)
 
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt). 
 ```
 Timing Summary:
 ---------------
@@ -22,6 +23,7 @@ Speed Grade: -3
 ToDo
 
 ## Synthesis Report (Artix7-xc7a200t-3-ffg1156)
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
 ```
 Timing Summary:
 ---------------
@@ -36,7 +38,7 @@ Speed Grade: -3
 ToDo
 
 ## Synthesis Report (Zynq-xc7z100-2-ffg1156)
-
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
 ```
 Timing Summary:
 ---------------
@@ -61,6 +63,7 @@ ToDo
 
 ![AES-Decryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_dec.svg)
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
 ```
 Timing Summary:
 ---------------
@@ -75,6 +78,7 @@ Speed Grade: -3
 ToDo
 
 ## Synthesis Report (Artix7-xc7a200t-3-ffg1156)
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
 ```
 Timing Summary:
 ---------------
@@ -89,6 +93,7 @@ Speed Grade: -3
 ToDo
 
 ## Synthesis Report (Zynq-xc7z100-2-ffg1156)
+[report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
 ```
 Timing Summary:
 ---------------
