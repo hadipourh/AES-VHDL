@@ -38,5 +38,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 29 VHDL Units
 Built simulation executable C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc/test_enc_isim_beh.exe
-Fuse Memory Usage: 30420 KB
-Fuse CPU Usage: 1390 ms
+Fuse Memory Usage: 30540 KB
+Fuse CPU Usage: 1187 ms

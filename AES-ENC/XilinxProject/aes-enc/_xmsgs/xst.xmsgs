@@ -5,21 +5,18 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
 
-<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
 
-<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
 
-<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
 
-<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte1</arg>&gt;
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[14].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[15].sbox_inst/Mram_output_byte1</arg>&gt;
 </msg>
 
-<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1</arg>&gt;
-</msg>
-
-<msg type="warning" file="Xst" num="1336" delta="new" > (*) More than 100% of Device resources are used
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MTP_</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte</arg>&gt;, &lt;<arg fmt="%s" index="3">key_sch_round_function_inst/gen_sboxes[13].sbox_inst/Mram_output_byte</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1</arg>&gt;
 </msg>
 
 </messages>

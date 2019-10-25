@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.28 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.28 secs
  
 --> Reading design: aes_enc.prj
 
@@ -46,7 +46,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "aes_enc"
 Output Format                      : NGC
-Target Device                      : xc7z010-3-clg400
+Target Device                      : xc7z100-2-ffg1156
 
 ---- Source Options
 Top Module Name                    : aes_enc
@@ -70,7 +70,7 @@ LUT Combining                      : Auto
 Reduce Control Sets                : Auto
 Add IO Buffers                     : YES
 Global Maximum Fanout              : 100000
-Add Generic Clock Buffer(BUFG)     : 32
+Add Generic Clock Buffer(BUFG)     : 16
 Register Duplication               : YES
 Optimize Instantiated Primitives   : NO
 Use Clock Enable                   : Auto
@@ -380,7 +380,7 @@ Optimizing unit <key_schedule> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block aes_enc, actual ratio is 6.
+Found area constraint ratio of 100 (+ 5) on block aes_enc, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -435,13 +435,13 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : 7z010clg400-3 
+Selected Device : 7z100ffg1156-2 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             264  out of  35200     0%  
- Number of Slice LUTs:                 1104  out of  17600     6%  
-    Number used as Logic:              1104  out of  17600     6%  
+ Number of Slice Registers:             264  out of  554800     0%  
+ Number of Slice LUTs:                 1104  out of  277400     0%  
+    Number used as Logic:              1104  out of  277400     0%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:   1104
@@ -452,14 +452,12 @@ Slice Logic Distribution:
 
 IO Utilization: 
  Number of IOs:                         387
- Number of bonded IOBs:                 387  out of    100   387% (*) 
+ Number of bonded IOBs:                 387  out of    400    96%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                1  out of     60     1%  
+ Number of Block RAM/FIFO:                1  out of    755     0%  
     Number using Block RAM only:          1
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
-
-WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
 
 ---------------------------
 Partition Resource Summary:
@@ -495,11 +493,11 @@ N0(XST_GND:G)                      | NONE(key_schedule_inst_key_sch_round_functi
 
 Timing Summary:
 ---------------
-Speed Grade: -3
+Speed Grade: -2
 
-   Minimum period: 2.918ns (Maximum Frequency: 342.724MHz)
-   Minimum input arrival time before clock: 1.453ns
-   Maximum output required time after clock: 1.343ns
+   Minimum period: 3.369ns (Maximum Frequency: 296.789MHz)
+   Minimum input arrival time before clock: 1.653ns
+   Maximum output required time after clock: 1.540ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -508,10 +506,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 2.918ns (frequency: 342.724MHz)
+  Clock period: 3.369ns (frequency: 296.789MHz)
   Total number of paths / destination ports: 54387 / 296
 -------------------------------------------------------------------------
-Delay:               2.918ns (Levels of Logic = 1)
+Delay:               3.369ns (Levels of Logic = 1)
   Source:            key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
   Destination:       key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
   Source Clock:      clk rising
@@ -521,18 +519,18 @@ Delay:               2.918ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB18E1:CLKARDCLK->DOBDO7    4   1.846   0.303  key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (key_schedule_inst/key_sch_round_function_inst/substitued_sk<15>)
-     LUT6:I5->O            2   0.043   0.283  key_schedule_inst/reg_input<103> (key_schedule_inst/reg_input<103>)
-     RAMB18E1:ADDRARDADDR10        0.442          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
+     RAMB18E1:CLKARDCLK->DOBDO7    4   2.125   0.367  key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (key_schedule_inst/key_sch_round_function_inst/substitued_sk<15>)
+     LUT6:I5->O            2   0.043   0.344  key_schedule_inst/reg_input<103> (key_schedule_inst/reg_input<103>)
+     RAMB18E1:ADDRARDADDR10        0.490          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
     ----------------------------------------
-    Total                      2.918ns (2.331ns logic, 0.587ns route)
-                                       (79.9% logic, 20.1% route)
+    Total                      3.369ns (2.658ns logic, 0.711ns route)
+                                       (78.9% logic, 21.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 584 / 296
 -------------------------------------------------------------------------
-Offset:              1.453ns (Levels of Logic = 2)
+Offset:              1.653ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1 (RAM)
   Destination Clock: clk rising
@@ -541,18 +539,18 @@ Offset:              1.453ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           264   0.000   0.685  rst_IBUF (rst_IBUF)
-     LUT6:I1->O            2   0.043   0.283  key_schedule_inst/reg_input<96> (key_schedule_inst/reg_input<96>)
-     RAMB18E1:ADDRARDADDR3        0.442          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
+     IBUF:I->O           264   0.000   0.776  rst_IBUF (rst_IBUF)
+     LUT6:I1->O            2   0.043   0.344  key_schedule_inst/reg_input<96> (key_schedule_inst/reg_input<96>)
+     RAMB18E1:ADDRARDADDR3        0.490          key_schedule_inst_key_sch_round_function_inst/gen_sboxes[12].sbox_inst/Mram_output_byte1
     ----------------------------------------
-    Total                      1.453ns (0.485ns logic, 0.968ns route)
-                                       (33.4% logic, 66.6% route)
+    Total                      1.653ns (0.533ns logic, 1.120ns route)
+                                       (32.2% logic, 67.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 264 / 129
 -------------------------------------------------------------------------
-Offset:              1.343ns (Levels of Logic = 3)
+Offset:              1.540ns (Levels of Logic = 3)
   Source:            controller_inst/reg_inst/current_stata_4 (FF)
   Destination:       done (PAD)
   Source Clock:      clk rising
@@ -561,13 +559,13 @@ Offset:              1.343ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               7   0.232   0.456  controller_inst/reg_inst/current_stata_4 (controller_inst/reg_inst/current_stata_4)
-     LUT3:I0->O            1   0.043   0.289  controller_inst/done<7>_SW0 (N260)
-     LUT6:I5->O            1   0.043   0.279  controller_inst/done<7> (done_OBUF)
+     FD:C->Q               7   0.236   0.529  controller_inst/reg_inst/current_stata_4 (controller_inst/reg_inst/current_stata_4)
+     LUT3:I0->O            1   0.043   0.350  controller_inst/done<7>_SW0 (N260)
+     LUT6:I5->O            1   0.043   0.339  controller_inst/done<7> (done_OBUF)
      OBUF:I->O                 0.000          done_OBUF (done)
     ----------------------------------------
-    Total                      1.343ns (0.318ns logic, 1.025ns route)
-                                       (23.7% logic, 76.3% route)
+    Total                      1.540ns (0.322ns logic, 1.218ns route)
+                                       (20.9% logic, 79.1% route)
 
 =========================================================================
 
@@ -579,20 +577,20 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    2.918|         |         |         |
+clk            |    3.369|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 19.89 secs
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.25 secs
  
 --> 
 
-Total memory usage is 4656608 kilobytes
+Total memory usage is 4656580 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    6 (   0 filtered)
 

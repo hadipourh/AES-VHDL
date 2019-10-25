@@ -31,6 +31,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="aes_enc.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="aes_enc.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="aes_enc.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="aes_enc_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="aes_enc_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="aes_enc_xst.xrpt"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
@@ -47,108 +48,35 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1572000782" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1572000782">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1572018041">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7512404721516545877" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1572000782" xil_pn:in_ck="1900301106134687428" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1572000782">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../RTL/add_round_key.vhd"/>
-      <outfile xil_pn:name="../../RTL/aes_enc.vhd"/>
-      <outfile xil_pn:name="../../RTL/column_calculator.vhd"/>
-      <outfile xil_pn:name="../../RTL/controller.vhd"/>
-      <outfile xil_pn:name="../../RTL/gfmult_by2.vhd"/>
-      <outfile xil_pn:name="../../RTL/key_sch_round_function.vhd"/>
-      <outfile xil_pn:name="../../RTL/key_schedule.vhd"/>
-      <outfile xil_pn:name="../../RTL/mix_columns.vhd"/>
-      <outfile xil_pn:name="../../RTL/reg.vhd"/>
-      <outfile xil_pn:name="../../RTL/sbox.vhd"/>
-      <outfile xil_pn:name="../../RTL/shift_rwos.vhd"/>
-      <outfile xil_pn:name="../../RTL/sub_byte.vhd"/>
-      <outfile xil_pn:name="../../Testbench/enc_tb.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1572000782" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4798605250235673749" xil_pn:start_ts="1572000782">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5137675690491413576" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1572000782" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5575671953115786223" xil_pn:start_ts="1572000782">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1572000782" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4864312765482615267" xil_pn:start_ts="1572000782">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1880583780027916113" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1572000782" xil_pn:in_ck="1900301106134687428" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1572000782">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../RTL/add_round_key.vhd"/>
-      <outfile xil_pn:name="../../RTL/aes_enc.vhd"/>
-      <outfile xil_pn:name="../../RTL/column_calculator.vhd"/>
-      <outfile xil_pn:name="../../RTL/controller.vhd"/>
-      <outfile xil_pn:name="../../RTL/gfmult_by2.vhd"/>
-      <outfile xil_pn:name="../../RTL/key_sch_round_function.vhd"/>
-      <outfile xil_pn:name="../../RTL/key_schedule.vhd"/>
-      <outfile xil_pn:name="../../RTL/mix_columns.vhd"/>
-      <outfile xil_pn:name="../../RTL/reg.vhd"/>
-      <outfile xil_pn:name="../../RTL/sbox.vhd"/>
-      <outfile xil_pn:name="../../RTL/shift_rwos.vhd"/>
-      <outfile xil_pn:name="../../RTL/sub_byte.vhd"/>
-      <outfile xil_pn:name="../../Testbench/enc_tb.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1572000787" xil_pn:in_ck="1900301106134687428" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4103292582392467879" xil_pn:start_ts="1572000782">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_enc_beh.prj"/>
-      <outfile xil_pn:name="test_enc_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
-    </transform>
-    <transform xil_pn:end_ts="1572000788" xil_pn:in_ck="6145218959653769028" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3409751339699229721" xil_pn:start_ts="1572000787">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_enc_isim_beh.wdb"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1571999778">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3005049903902580817" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7512404721516545877" xil_pn:start_ts="1571999778">
+    <transform xil_pn:end_ts="1572018042" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4990880070059287554" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4864312765482615267" xil_pn:start_ts="1571999778">
+    <transform xil_pn:end_ts="1572018068" xil_pn:in_ck="4337478943704936452" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-6467661736033954636" xil_pn:start_ts="1572018042">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571999778">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1880583780027916113" xil_pn:start_ts="1571999778">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8912443121649815033" xil_pn:start_ts="1571999778">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999778" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4331629461563193107" xil_pn:start_ts="1571999778">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1571999802" xil_pn:in_ck="4337478943704936452" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="9077291263305765853" xil_pn:start_ts="1571999778">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="aes_enc.lso"/>

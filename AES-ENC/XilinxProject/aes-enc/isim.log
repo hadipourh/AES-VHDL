@@ -12,37 +12,6 @@ at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
 at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
 at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
 # restart
-# run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-at 220 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 220 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 220 ns: Note: 2e2b34ca59fa4c883b2c8aefd44be966 (/test_enc/).
-# restart
-# run 120 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
-# run 120 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
-# run 120 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
 # run 120 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
@@ -66,27 +35,6 @@ at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 # run 130 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
-# run 120 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
-# run 120 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 110 ns: Note: ---------- Passed ---------- (/test_enc/).
-at 110 ns: Note: ---------- Output must be: ------- (/test_enc/).
-at 110 ns: Note: 320b6a19978511dcfb09dc021d842539 (/test_enc/).
-# restart
-# run 120 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 at 110 ns: Note: ---------- Passed ---------- (/test_enc/).

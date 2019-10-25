@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-25T14:54:16</DateModified>
+  <DateModified>2019-10-25T19:10:50</DateModified>
   <ModuleName>aes_enc</ModuleName>
   <SummaryTimeStamp>2019-10-25T14:06:42</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc/iseconfig/aes_enc.xreport</SavedFilePath>
@@ -17,6 +17,9 @@
     <toc-item title="Performance Summary" target="Performance Summary" />
     <toc-item title="Failing Constraints" target="Failing Constraints" />
     <toc-item title="Detailed Reports" target="Detailed Reports" />
+    <table-item tableState="ExpandedTable" tableKey="DeviceUtilizationSummary(estimatedvalues)" />
+    <table-item tableState="ExpandedTable" tableKey="DetailedReports" />
+    <table-item tableState="CollapsedTable" tableKey="DetailedReports" />
    </view>
    <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="aes_enc_envsettings.html" label="System Settings" />
    <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="aes_enc_map.xrpt" label="IOB Properties" />
