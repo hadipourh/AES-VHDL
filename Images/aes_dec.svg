@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="547.15411"
-     inkscape:cy="148.80723"
+     inkscape:zoom="2.8"
+     inkscape:cx="498.86556"
+     inkscape:cy="37.778516"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -535,35 +535,6 @@
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6)" />
     </marker>
-    <meshgradient
-       inkscape:collect="always"
-       id="meshgradient17846"
-       gradientUnits="userSpaceOnUse"
-       x="173.96846"
-       y="-85.516739">
-      <meshrow
-         id="meshrow17944">
-        <meshpatch
-           id="meshpatch17946">
-          <stop
-             path="c 12.4734,0  11.8507,8.61397e-07  37.4203,0"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop17948" />
-          <stop
-             path="c 0,7.61122  0.4009,3.19527  0,22.8337"
-             style="stop-color:#ff55dd;stop-opacity:1"
-             id="stop17950" />
-          <stop
-             path="c -12.4734,0  -24.4124,0.801805  -37.4203,0"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop17952" />
-          <stop
-             path="c 0,-7.61122  -0.133639,-14.0197  0,-22.8337"
-             style="stop-color:#ff55dd;stop-opacity:1"
-             id="stop17954" />
-        </meshpatch>
-      </meshrow>
-    </meshgradient>
     <meshgradient
        inkscape:collect="always"
        id="meshgradient17989"
@@ -2670,7 +2641,7 @@
        d="m 61.13069,125.01177 a 0.396875,0.396875 0 0 1 -0.39688,0.39688 0.396875,0.396875 0 0 1 -0.39687,-0.39688 0.396875,0.396875 0 0 1 0.39687,-0.39687 0.396875,0.396875 0 0 1 0.39688,0.39687 z"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#010000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
-       transform="matrix(0.35898206,0,0,0.35898206,-21.37949,78.006609)"
+       transform="matrix(0.35898206,0,0,0.35898206,28.891336,78.006606)"
        style="fill:#000000;fill-opacity:1"
        id="g28311">
       <path
@@ -2699,7 +2670,7 @@
          id="path28309" />
     </g>
     <g
-       transform="matrix(0.35898206,0,0,0.35898206,20.19558,78.006609)"
+       transform="matrix(0.35898206,0,0,0.35898206,-30.075254,78.006606)"
        style="fill:#000000;fill-opacity:1"
        id="g28321">
       <path
