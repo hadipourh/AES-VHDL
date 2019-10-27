@@ -5,7 +5,7 @@ VHDL Implementation of AES Algorithm
 There are simple VHDL implementations of AES-128 encryption, and decryption algorithms, in this repository. This is actually my first experience in VHDL implementation! 
 
 ## What is AES? 
-There might be a few people who deal with computers, and hardwares, but have not heared the name of AES, which is a famous symmetric block cipher. If you have not knew this algorithm yet, [1] is a good reference, to understand how this algorithm works. This implementation is also based on [1].
+There might be a few people who deal with computers, and hardware, but have not heard the name of AES, which is a famous symmetric block cipher. If you have not knew this algorithm yet, [1] is a good reference, to understand how this algorithm works. This implementation is also based on [1].
 
 ## Pipelined VS Loop Unrolled
 Two famous kinds of hardware implementation techniques, are pipelining, and loop-unrolling techniques. In pipelining, registers are inserted between each combinational processing element, so that each input data block can be processed simultaneously in each processing element. An overview of a pipelined implementation of AES encryption algorithm is depicted in the following shape, where the round-i depicts the i'th round of AES encryption algorithm.
