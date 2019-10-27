@@ -1,6 +1,7 @@
 # AES-VHDL
 VHDL Implementation of AES Algorithm
 
+
 # Encryption
 
 ## Architecture
@@ -55,14 +56,15 @@ ToDo
 ## Simulation
 
 
-![AES-Encryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_enc.png)
+![AES-Encryption Simulation](/Images/capture_simulation_aes_enc.png)
 
 # Decryption
 
 ## Architecture
 
-![AES-Decryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_dec.svg?sanitize=true)
+![AES-Decryption Architecture](/Images/aes_dec.svg)
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
+
 [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
 ```
 Timing Summary:
@@ -75,7 +77,7 @@ Speed Grade: -3
    Maximum combinational path delay: No path found
 ```
 ### Throughput
-ToDo
+
 
 ## Synthesis Report (Artix7-xc7a200t-3-ffg1156)
 [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
@@ -108,6 +110,6 @@ Speed Grade: -2
 ToDo
 ## Simulation
 
-![AES-Decryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_dec.png)
+![AES-Decryption Simulation](/Images/capture_simulation_aes_dec.png)
 
 # ToDo ...
