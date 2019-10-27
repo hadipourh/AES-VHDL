@@ -44,7 +44,6 @@ You can find the details here : [report](https://github.com/hadipourh/AES-VHDL/b
 
 #### Design Summary
 
-<HTML><HEAD><TITLE>Xilinx Design Summary</TITLE></HEAD>
 <BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
 <TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'>
@@ -134,32 +133,6 @@ System Settings</A>
 <TD ALIGN=RIGHT COLSPAN='2'>6%</TD>
 </TR>
 </TABLE>
-
-
-
-
-
-
-
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='6'><B>Detailed Reports</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DetailedReports"><B>[-]</B></a></TD></TR>
-<TR BGCOLOR='#FFFF99'><TD><B>Report Name</B></TD><TD><B>Status</B></TD><TD><B>Generated</B></TD>
-<TD ALIGN=LEFT><B>Errors</B></TD><TD ALIGN=LEFT><B>Warnings</B></TD><TD ALIGN=LEFT COLSPAN='2'><B>Infos</B></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc.syr'>Synthesis Report</A></TD><TD>Current</TD><TD>Fri Oct 25 17:36:18 2019</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\_xmsgs/xst.xmsgs?&DataKey=Info'>6 Infos (0 new)</A></TD></TR>
-<TR ALIGN=LEFT><TD>Translation Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD>Map Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD>Place and Route Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD>Power Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD>Post-PAR Static Timing Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD>Bitgen Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-</TABLE>
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='3'><B>Secondary Reports</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=SecondaryReports"><B>[-]</B></a></TD></TR>
-<TR BGCOLOR='#FFFF99'><TD><B>Report Name</B></TD><TD><B>Status</B></TD><TD COLSPAN='2'><B>Generated</B></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\isim.log'>ISIM Simulator Log</A></TD><TD>Out of Date</TD><TD COLSPAN='2'>Fri Oct 25 14:32:03 2019</TD></TR>
-</TABLE>
-
-
 <br><center><b>Date Generated:</b> 10/25/2019 - 17:39:02</center>
 </BODY></HTML>
 
@@ -178,6 +151,103 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
+
+### Design Summary
+
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>aes_enc Project Status (10/25/2019 - 14:06:42)</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
+<TD>aes-enc.xise</TD>
+<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
+<TD> No Errors </TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
+<TD>aes_enc</TD>
+<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
+<TD>Synthesized</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD>xc7a200t-3ffg1156</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
+<TD>
+No Errors</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
+<TD ALIGN=LEFT>No Warnings</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
+<TD>Balanced</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
+<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
+<TD>
+<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc_envsettings.html'>
+System Settings</A>
+</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
+<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
+<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
+<TD ALIGN=RIGHT>264</TD>
+<TD ALIGN=RIGHT>269200</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
+<TD ALIGN=RIGHT>1104</TD>
+<TD ALIGN=RIGHT>134600</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
+<TD ALIGN=RIGHT>264</TD>
+<TD ALIGN=RIGHT>1104</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>23%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
+<TD ALIGN=RIGHT>387</TD>
+<TD ALIGN=RIGHT>500</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>77%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Block RAM/FIFO</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>365</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>32</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
+</TR>
+</TABLE>
+
+
+<br><center><b>Date Generated:</b> 10/25/2019 - 18:40:06</center>
+</BODY></HTML>
+
 ```
 Timing Summary:
 ---------------
@@ -193,6 +263,101 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 
 ### Synthesis Report (Zynq-xc7z100-2-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
+
+### Design Summary
+
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>aes_enc Project Status (10/25/2019 - 14:06:42)</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
+<TD>aes-enc.xise</TD>
+<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
+<TD> No Errors </TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
+<TD>aes_enc</TD>
+<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
+<TD>Synthesized</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD>xc7z100-2ffg1156</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
+<TD>
+No Errors</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
+<TD ALIGN=LEFT>No Warnings</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
+<TD>Balanced</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
+<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
+<TD>
+<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc_envsettings.html'>
+System Settings</A>
+</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
+<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
+<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
+<TD ALIGN=RIGHT>264</TD>
+<TD ALIGN=RIGHT>554800</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
+<TD ALIGN=RIGHT>1104</TD>
+<TD ALIGN=RIGHT>277400</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
+<TD ALIGN=RIGHT>264</TD>
+<TD ALIGN=RIGHT>1104</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>23%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
+<TD ALIGN=RIGHT>387</TD>
+<TD ALIGN=RIGHT>400</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>96%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Block RAM/FIFO</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>755</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>32</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
+</TR>
+</TABLE>
+<br><center><b>Date Generated:</b> 10/25/2019 - 19:12:53</center>
+</BODY></HTML>
+
 ```
 Timing Summary:
 ---------------
@@ -225,6 +390,95 @@ To implement the decryption algorithm of AES-128, one must invert the SubBytes, 
 ### Synthesis Report (Spartan6-xc6slx75-3fgg676)
 
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
+#### Design Summary
+
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 18:30:19)</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
+<TD>aes-dec.xise</TD>
+<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
+<TD> No Errors </TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
+<TD>aes_dec</TD>
+<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
+<TD>Synthesized</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD>xc6slx75-3fgg676</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
+<TD>
+No Errors</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
+<TD ALIGN=LEFT>No Warnings</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
+<TD>Balanced</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
+<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
+<TD>
+<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
+System Settings</A>
+</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
+<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
+<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
+<TD ALIGN=RIGHT>264</TD>
+<TD ALIGN=RIGHT>93296</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
+<TD ALIGN=RIGHT>1474</TD>
+<TD ALIGN=RIGHT>46648</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
+<TD ALIGN=RIGHT>260</TD>
+<TD ALIGN=RIGHT>1478</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>17%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
+<TD ALIGN=RIGHT>387</TD>
+<TD ALIGN=RIGHT>408</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>94%</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>16</TD>
+<TD ALIGN=RIGHT COLSPAN='2'>6%</TD>
+</TR>
+</TABLE>
+<br><center><b>Date Generated:</b> 10/25/2019 - 18:30:19</center>
+</BODY></HTML>
+
 ```
 Timing Summary:
 ---------------
@@ -241,6 +495,74 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
+
+#### Design Summary
+
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 18:44:28)</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
+<TD>aes-dec.xise</TD>
+<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
+<TD> No Errors </TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
+<TD>aes_dec</TD>
+<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
+<TD>Synthesized</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD>xc7a200t-3ffg1156</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
+<TD>
+No Errors</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
+<TD ALIGN=LEFT>No Warnings</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
+<TD>Balanced</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
+<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
+<TD>
+<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
+System Settings</A>
+</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER width='98%'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT width='2%'> <A HREF_DISABLED="?&CollapsedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[+]</B></a></TD></TR></TABLE></TR>
+</TR>
+</TR>
+</TR>
+</TR>
+</TR>
+</TABLE>
+<br><center><b>Date Generated:</b> 10/25/2019 - 18:44:28</center>
+</BODY></HTML>
+
 ```
 Timing Summary:
 ---------------
@@ -256,6 +578,73 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 
 ### Synthesis Report (Zynq-xc7z100-2-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
+
+#### Design Summary
+
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 19:03:28)</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
+<TD>aes-dec.xise</TD>
+<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
+<TD> No Errors </TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
+<TD>aes_dec</TD>
+<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
+<TD>Synthesized</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD>xc7z100-2ffg1156</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
+<TD>
+No Errors</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
+<TD ALIGN=LEFT>No Warnings</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
+<TD>Balanced</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
+<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
+<TD>
+<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
+System Settings</A>
+</TD>
+<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER width='98%'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT width='2%'> <A HREF_DISABLED="?&CollapsedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[+]</B></a></TD></TR></TABLE></TR>
+</TR>
+</TR>
+</TR>
+</TR>
+</TR>
+</TABLE>
+<br><center><b>Date Generated:</b> 10/25/2019 - 19:09:35</center>
+</BODY></HTML>
 
 ```
 Timing Summary:
