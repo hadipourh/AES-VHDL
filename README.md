@@ -43,7 +43,7 @@ If someone wants to use a fixed key, it is preferable to calculate all subkeys o
 You can find the details here : [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt).
 
 #### Design Summary
-
+</HTML>
 <BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
 <TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'>
@@ -133,7 +133,6 @@ System Settings</A>
 <TD ALIGN=RIGHT COLSPAN='2'>6%</TD>
 </TR>
 </TABLE>
-<br><center><b>Date Generated:</b> 10/25/2019 - 17:39:02</center>
 </BODY></HTML>
 
 ```
