@@ -5,7 +5,7 @@ VHDL Implementation of AES Algorithm
 
 ## Architecture
 
-![AES-Encryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_enc.svg)
+![AES-Encryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_enc.svg?sanitize=true)
 
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
 [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt). 
@@ -55,13 +55,13 @@ ToDo
 ## Simulation
 
 
-![AES-Encryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_enc.png)
+![AES-Encryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_enc.png?sanitize=true)
 
 # Decryption
 
 ## Architecture
 
-![AES-Decryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_dec.svg)
+![AES-Decryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_dec.svg?sanitize=true)
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
 [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
 ```
@@ -108,6 +108,6 @@ Speed Grade: -2
 ToDo
 ## Simulation
 
-![AES-Decryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_dec.png)
+![AES-Decryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_dec.png?sanitize=true)
 
 # ToDo ...
