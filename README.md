@@ -43,98 +43,55 @@ If someone wants to use a fixed key, it is preferable to calculate all subkeys o
 You can find the details here : [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt).
 
 #### Design Summary
-```html
-</HTML>
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_enc Project Status (10/25/2019 - 14:06:42)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-enc.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_enc</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc6slx75-3fgg676</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port block Read Only RAM             : 4
+ 256x8-bit single-port distributed Read Only RAM       : 16
+# Registers                                            : 264
+ Flip-Flops                                            : 264
+# Multiplexers                                         : 4
+ 128-bit 2-to-1 multiplexer                            : 3
+ 8-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 68
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 47
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx75fgg676-3 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             264  out of  93296     0%  
+ Number of Slice LUTs:                 1104  out of  46648     2%  
+    Number used as Logic:              1104  out of  46648     2%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
-<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
-<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>93296</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT>46648</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>2%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>23%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
-<TD ALIGN=RIGHT>387</TD>
-<TD ALIGN=RIGHT>408</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>94%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Block RAM/FIFO</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>172</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>16</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>6%</TD>
-</TR>
-</TABLE>
-</BODY></HTML>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1104
+   Number with an unused Flip Flop:     840  out of   1104    76%  
+   Number with an unused LUT:             0  out of   1104     0%  
+   Number of fully used LUT-FF pairs:   264  out of   1104    23%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    408    94%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    172     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 ```
 
 ```
@@ -155,100 +112,56 @@ You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/bl
 
 ### Design Summary
 
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_enc Project Status (10/25/2019 - 14:06:42)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-enc.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_enc</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc7a200t-3ffg1156</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port block Read Only RAM             : 4
+ 256x8-bit single-port distributed Read Only RAM       : 16
+# Registers                                            : 264
+ Flip-Flops                                            : 264
+# Multiplexers                                         : 4
+ 128-bit 2-to-1 multiplexer                            : 3
+ 8-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 68
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 47
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a200tffg1156-3 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             264  out of  269200     0%  
+ Number of Slice LUTs:                 1104  out of  134600     0%  
+    Number used as Logic:              1104  out of  134600     0%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
-<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
-<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>269200</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT>134600</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>23%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
-<TD ALIGN=RIGHT>387</TD>
-<TD ALIGN=RIGHT>500</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>77%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Block RAM/FIFO</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>365</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>32</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
-</TR>
-</TABLE>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1104
+   Number with an unused Flip Flop:     840  out of   1104    76%  
+   Number with an unused LUT:             0  out of   1104     0%  
+   Number of fully used LUT-FF pairs:   264  out of   1104    23%  
+   Number of unique control sets:         1
 
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    500    77%  
 
-<br><center><b>Date Generated:</b> 10/25/2019 - 18:40:06</center>
-</BODY></HTML>
-
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    365     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+```
 ```
 Timing Summary:
 ---------------
@@ -267,97 +180,56 @@ You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/bl
 
 ### Design Summary
 
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_enc Project Status (10/25/2019 - 14:06:42)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-enc.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_enc</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc7z100-2ffg1156</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-ENC/XilinxProject/aes-enc\aes_enc_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port block Read Only RAM             : 4
+ 256x8-bit single-port distributed Read Only RAM       : 16
+# Registers                                            : 264
+ Flip-Flops                                            : 264
+# Multiplexers                                         : 4
+ 128-bit 2-to-1 multiplexer                            : 3
+ 8-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 68
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 47
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z100ffg1156-2 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             264  out of  554800     0%  
+ Number of Slice LUTs:                 1104  out of  277400     0%  
+    Number used as Logic:              1104  out of  277400     0%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
-<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
-<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>554800</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT>277400</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>1104</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>23%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
-<TD ALIGN=RIGHT>387</TD>
-<TD ALIGN=RIGHT>400</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>96%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Block RAM/FIFO</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>755</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>32</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
-</TR>
-</TABLE>
-<br><center><b>Date Generated:</b> 10/25/2019 - 19:12:53</center>
-</BODY></HTML>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1104
+   Number with an unused Flip Flop:     840  out of   1104    76%  
+   Number with an unused LUT:             0  out of   1104     0%  
+   Number of fully used LUT-FF pairs:   264  out of   1104    23%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    400    96%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    755     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+```
 
 ```
 Timing Summary:
@@ -393,92 +265,55 @@ To implement the decryption algorithm of AES-128, one must invert the SubBytes, 
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
 #### Design Summary
 
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 18:30:19)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-dec.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_dec</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc6slx75-3fgg676</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port distributed Read Only RAM       : 20
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 260
+ Flip-Flops                                            : 260
+# Multiplexers                                         : 3
+ 128-bit 2-to-1 multiplexer                            : 3
+# Xors                                                 : 107
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 86
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx75fgg676-3 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             264  out of  93296     0%  
+ Number of Slice LUTs:                 1474  out of  46648     3%  
+    Number used as Logic:              1474  out of  46648     3%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='4'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[-]</B></a></TD></TR>
-<TR ALIGN=CENTER BGCOLOR='#FFFF99'>
-<TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD COLSPAN='2'><B>Utilization</B></TD></TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Registers</TD>
-<TD ALIGN=RIGHT>264</TD>
-<TD ALIGN=RIGHT>93296</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>0%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice LUTs</TD>
-<TD ALIGN=RIGHT>1474</TD>
-<TD ALIGN=RIGHT>46648</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>3%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of fully used LUT-FF pairs</TD>
-<TD ALIGN=RIGHT>260</TD>
-<TD ALIGN=RIGHT>1478</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>17%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of bonded IOBs</TD>
-<TD ALIGN=RIGHT>387</TD>
-<TD ALIGN=RIGHT>408</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>94%</TD>
-</TR>
-<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFG/BUFGCTRLs</TD>
-<TD ALIGN=RIGHT>1</TD>
-<TD ALIGN=RIGHT>16</TD>
-<TD ALIGN=RIGHT COLSPAN='2'>6%</TD>
-</TR>
-</TABLE>
-<br><center><b>Date Generated:</b> 10/25/2019 - 18:30:19</center>
-</BODY></HTML>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1478
+   Number with an unused Flip Flop:    1214  out of   1478    82%  
+   Number with an unused LUT:             4  out of   1478     0%  
+   Number of fully used LUT-FF pairs:   260  out of   1478    17%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    408    94%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+```
 
 ```
 Timing Summary:
@@ -499,71 +334,55 @@ You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/bl
 
 #### Design Summary
 
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 18:44:28)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-dec.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_dec</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc7a200t-3ffg1156</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port distributed Read Only RAM       : 20
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 260
+ Flip-Flops                                            : 260
+# Multiplexers                                         : 3
+ 128-bit 2-to-1 multiplexer                            : 3
+# Xors                                                 : 107
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 86
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a200tffg1156-3 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             260  out of  269200     0%  
+ Number of Slice LUTs:                 1490  out of  134600     1%  
+    Number used as Logic:              1490  out of  134600     1%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER width='98%'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT width='2%'> <A HREF_DISABLED="?&CollapsedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[+]</B></a></TD></TR></TABLE></TR>
-</TR>
-</TR>
-</TR>
-</TR>
-</TR>
-</TABLE>
-<br><center><b>Date Generated:</b> 10/25/2019 - 18:44:28</center>
-</BODY></HTML>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1490
+   Number with an unused Flip Flop:    1230  out of   1490    82%  
+   Number with an unused LUT:             0  out of   1490     0%  
+   Number of fully used LUT-FF pairs:   260  out of   1490    17%  
+   Number of unique control sets:         2
 
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    500    77%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+```
 ```
 Timing Summary:
 ---------------
@@ -582,71 +401,55 @@ You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/bl
 
 #### Design Summary
 
-<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
-<TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
-<TD ALIGN=CENTER COLSPAN='4'><B>aes_dec Project Status (10/25/2019 - 19:03:28)</B></TD></TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Project File:</B></TD>
-<TD>aes-dec.xise</TD>
-<TD BGCOLOR='#FFFF99'><b>Parser Errors:</b></TD>
-<TD> No Errors </TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Module Name:</B></TD>
-<TD>aes_dec</TD>
-<TD BGCOLOR='#FFFF99'><B>Implementation State:</B></TD>
-<TD>Synthesized</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
-<TD>xc7z100-2ffg1156</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Errors:</B></LI></UL></TD>
-<TD>
-No Errors</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT>No Warnings</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
-<TD>Balanced</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Routing Results:</B></LI></UL></TD>
-<TD>
-&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Design Strategy:</B></dif></TD>
-<TD><A HREF_DISABLED='Xilinx Default (unlocked)?&DataKey=Strategy'>Xilinx Default (unlocked)</A></TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Timing Constraints:</B></LI></UL></TD>
-<TD>&nbsp;</TD>
-</TR>
-<TR ALIGN=LEFT>
-<TD BGCOLOR='#FFFF99'><B>Environment:</B></dif></TD>
-<TD>
-<A HREF_DISABLED='C:/Users/Hosein/Documents/MyUniverse/Mathematics/E-Books/Cryptography/Alim/AES-VHDL/AES-DEC/XilinxProject/aes-dec\aes_dec_envsettings.html'>
-System Settings</A>
-</TD>
-<TD BGCOLOR='#FFFF99'><UL><LI><B>Final Timing Score:</B></LI></UL></TD>
-<TD>&nbsp;&nbsp;</TD>
-</TR>
-</TABLE>
+```
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 256x8-bit single-port distributed Read Only RAM       : 20
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 260
+ Flip-Flops                                            : 260
+# Multiplexers                                         : 3
+ 128-bit 2-to-1 multiplexer                            : 3
+# Xors                                                 : 107
+ 128-bit xor2                                          : 1
+ 24-bit xor2                                           : 1
+ 32-bit xor2                                           : 3
+ 8-bit xor2                                            : 86
+ 8-bit xor3                                            : 16
+
+=========================================================================
+```
+```
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z100ffg1156-2 
 
 
+Slice Logic Utilization: 
+ Number of Slice Registers:             260  out of  554800     0%  
+ Number of Slice LUTs:                 1490  out of  277400     0%  
+    Number used as Logic:              1490  out of  277400     0%  
 
-&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
-<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER width='98%'><B>Device Utilization Summary (estimated values)</B></TD><TD ALIGN=RIGHT width='2%'> <A HREF_DISABLED="?&CollapsedTable=DeviceUtilizationSummary(estimatedvalues)"><B>[+]</B></a></TD></TR></TABLE></TR>
-</TR>
-</TR>
-</TR>
-</TR>
-</TR>
-</TABLE>
-<br><center><b>Date Generated:</b> 10/25/2019 - 19:09:35</center>
-</BODY></HTML>
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1490
+   Number with an unused Flip Flop:    1230  out of   1490    82%  
+   Number with an unused LUT:             0  out of   1490     0%  
+   Number of fully used LUT-FF pairs:   260  out of   1490    17%  
+   Number of unique control sets:         2
 
+IO Utilization: 
+ Number of IOs:                         387
+ Number of bonded IOBs:                 387  out of    400    96%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+```
 ```
 Timing Summary:
 ---------------
