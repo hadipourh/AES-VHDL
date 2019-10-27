@@ -5,7 +5,7 @@ VHDL Implementation of AES Algorithm
 
 ## Architecture
 
-![AES-Encryption Architecture](https://github.com/hadipourh/AES-VHDL/blob/master/Images/aes_enc.svg?sanitize=true)
+![AES-Encryption-Architecture](/Images/aes_enc.svg)
 
 ## Synthesis Report (Spartan6-xc6slx75-3fgg676)
 [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt). 
@@ -55,7 +55,7 @@ ToDo
 ## Simulation
 
 
-![AES-Encryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_enc.png?sanitize=true)
+![AES-Encryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_enc.png)
 
 # Decryption
 
@@ -108,6 +108,6 @@ Speed Grade: -2
 ToDo
 ## Simulation
 
-![AES-Decryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_dec.png?sanitize=true)
+![AES-Decryption Simulation](https://github.com/hadipourh/AES-VHDL/blob/master/Images/capture_simulation_aes_dec.png)
 
 # ToDo ...
