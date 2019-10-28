@@ -42,11 +42,10 @@ If someone wants to use a fixed key, it is preferable to calculate all subkeys o
 ### Synthesis Report (Spartan6-xc6slx75-3fgg676)
 You can find the details here : [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt).
 
-#### Design Summary
+
+#### Advanced HDL Synthesis Report
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port block Read Only RAM             : 4
@@ -62,15 +61,12 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 47
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
-
 Selected Device : 6slx75fgg676-3 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             264  out of  93296     0%  
@@ -93,9 +89,8 @@ Specific Feature Utilization:
     Number using Block RAM only:          1
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 ```
-
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -3
 
@@ -111,12 +106,9 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
 
-### Design Summary
-
+### Advanced HDL Synthesis Report
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port block Read Only RAM             : 4
@@ -132,15 +124,12 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 47
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
-
 Selected Device : 7a200tffg1156-3 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             264  out of  269200     0%  
@@ -163,8 +152,8 @@ Specific Feature Utilization:
     Number using Block RAM only:          1
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
 ```
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -3
 
@@ -180,12 +169,9 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 ### Synthesis Report (Zynq-xc7z100-2-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-ENC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
 
-### Design Summary
-
+### Advanced HDL Synthesis Report
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port block Read Only RAM             : 4
@@ -201,15 +187,13 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 47
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
 
 Selected Device : 7z100ffg1156-2 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             264  out of  554800     0%  
@@ -232,9 +216,8 @@ Specific Feature Utilization:
     Number using Block RAM only:          1
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
 ```
-
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -2
 
@@ -273,12 +256,10 @@ For a given key, the subkeys must be used in reverse order to decrypt a cipherte
 ### Synthesis Report (Spartan6-xc6slx75-3fgg676)
 
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Spartan6/Spartan6-xc6slx75-3fgg676.txt)
-#### Design Summary
+#### Advanced HDL Synthesis Report
 
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port distributed Read Only RAM       : 20
@@ -295,15 +276,13 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 86
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
 
 Selected Device : 6slx75fgg676-3 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             264  out of  93296     0%  
@@ -324,9 +303,8 @@ IO Utilization:
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 ```
-
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -3
 
@@ -342,12 +320,9 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Artix7/Artix7-xc7a200t-3-ffg1156.txt)
 
-#### Design Summary
-
+#### Advanced HDL Synthesis Report
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port distributed Read Only RAM       : 20
@@ -364,15 +339,12 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 86
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
-
 Selected Device : 7a200tffg1156-3 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             260  out of  269200     0%  
@@ -393,8 +365,8 @@ IO Utilization:
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
 ```
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -3
 
@@ -410,12 +382,9 @@ According to the synthesis report produced by the ISE Designe Suite, The minimum
 ### Synthesis Report (Zynq-xc7z100-2-ffg1156)
 You can find the details here: [report](https://github.com/hadipourh/AES-VHDL/blob/master/AES-DEC/SynthesisReports/Zynq/Zynq-xc7z100-2-ffg1156.txt)
 
-#### Design Summary
-
+#### Advanced HDL Synthesis Report
 ```
 =========================================================================
-Advanced HDL Synthesis Report
-
 Macro Statistics
 # RAMs                                                 : 20
  256x8-bit single-port distributed Read Only RAM       : 20
@@ -432,15 +401,12 @@ Macro Statistics
  32-bit xor2                                           : 3
  8-bit xor2                                            : 86
  8-bit xor3                                            : 16
-
 =========================================================================
 ```
+#### Device Utilization Summary
 ```
-Device utilization summary:
 ---------------------------
-
 Selected Device : 7z100ffg1156-2 
-
 
 Slice Logic Utilization: 
  Number of Slice Registers:             260  out of  554800     0%  
@@ -461,8 +427,8 @@ IO Utilization:
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
 ```
+#### Timing Summary
 ```
-Timing Summary:
 ---------------
 Speed Grade: -2
 
@@ -486,4 +452,4 @@ In order to verify the correctness of the decryption's implementation, a testbec
 ## References
 
 
-[1] [The Design of Rijndael: AES - The Advanced Encryption Standard] (https://www.springer.com/gp/book/9783540425809)
+[1] [The Design of Rijndael: AES - The Advanced Encryption Standard](https://www.springer.com/gp/book/9783540425809)
