@@ -25,7 +25,7 @@ There are simple VHDL implementations of AES-128 encryption and decryption algor
       - [Timing Summary](#timing-summary-2)
       - [Throughput](#throughput-2)
     - [Simulation](#simulation)
-    - [Test Vectore](#test-vectore)
+    - [Test Vector](#test-vector)
   - [Decryption](#decryption)
     - [Architecture](#architecture-1)
     - [Synthesis Report (Spartan6-xc6slx75-3fgg676)](#synthesis-report-spartan6-xc6slx75-3fgg676-1)
@@ -296,7 +296,7 @@ In order to verify the correctness of the encryption's implementation, a testbec
 
 ![AES-Encryption Simulation](/Images/capture_simulation_aes_enc.png)
 
-### Test Vectore
+### Test Vector
 
 To validate the correctness of this implementation, I've used the test vectors provided by [NIST](https://www.nist.gov/), which is publicly avialble via the following link:
 
