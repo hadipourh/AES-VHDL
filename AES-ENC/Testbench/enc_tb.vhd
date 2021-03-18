@@ -78,14 +78,14 @@ begin
 		wait for clk_period * 1;
 		rst <= '1';
 		wait until done = '1';
-		wait for clk_period/2;			
+		wait for clk_period/2;
 		if (ciphertext = x"320b6a19978511dcfb09dc021d842539") then
 			report "---------- Passed ----------";
 		else
 			report "---------- Failed ----------";
 		end if;
 		report "---------- Output must be: -------";
-		report "320b6a19978511dcfb09dc021d842539";		
+		report "320b6a19978511dcfb09dc021d842539";
 		--------------------------------------------
 		-- Initialize Inputs
 		--p = 00000000000000000000000000000000
@@ -106,6 +106,27 @@ begin
 		end if;
 		report "---------- Output must be: -------";
 		report "2e2b34ca59fa4c883b2c8aefd44be966";
+		--------------------------------------------
+		-- A test vector taken from: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf
+		-- Initialize Inputs
+		--p = 6BC1BEE2 2E409F96 E93D7E11 7393172A
+		--k = 2B7E1516 28AED2A6 ABF71588 09CF4F3C
+		--c = 3AD77BB4 0D7A3660 A89ECAF3 2466EF97		
+		plaintext <= x"2a179373117e3de9969f402ee2bec16b";
+		key <= x"3c4fcf098815f7aba6d2ae2816157e2b";
+		rst <= '0';
+		-- Hold reset state for one cycle		
+		wait for clk_period * 1;
+		rst <= '1';
+		wait until done = '1';
+		wait for clk_period/2;			
+		if (ciphertext = x"97ef6624f3ca9ea860367a0db47bd73a") then
+			report "---------- Passed ----------";
+		else
+			report "---------- Failed ----------";
+		end if;
+		report "---------- Output must be: -------";
+		report "97ef6624f3ca9ea860367a0db47bd73a";
 		wait;
 	end process sim_proc;
 	
