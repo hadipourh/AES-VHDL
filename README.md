@@ -298,11 +298,11 @@ In order to verify the correctness of the encryption's implementation, a testbec
 
 ### Test Vectore
 
-To validate the correctness of this implementation, I've used the test vectors provided by [NIST](https://www.nist.gov/), which is publicly avialble vie the following link:
+To validate the correctness of this implementation, I've used the test vectors provided by [NIST](https://www.nist.gov/), which is publicly avialble via the following link:
 
 [https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf](https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf)
 
-For example, according to the NIST reference, the encryption of plaintext `6BC1BEE2 2E409F96 E93D7E11 7393172A` undet the key `2B7E1516 28AED2A6 ABF71588 09CF4F3C`, must yield the ciphertext: `3AD77BB4 0D7A3660 A89ECAF3 2466EF97`. **It should be noted that in these representations each byte is denoted by two hex digits. However, the bytes are arranged columnwise. Hence, to convert these representations into the 128-bit hex values, the order of bytes should be reversed as the last cell (bottom right) in the state array of AES has been considered the most significat byte in my implementation. For instance, the hex vectors corresponding to the above test vectors in our impementation are as follows:**
+For example, according to the NIST reference, the encryption of plaintext `6BC1BEE2 2E409F96 E93D7E11 7393172A` undet the key `2B7E1516 28AED2A6 ABF71588 09CF4F3C`, must yield the ciphertext: `3AD77BB4 0D7A3660 A89ECAF3 2466EF97`. *It should be noted that in these representations each byte is denoted by two hex digits. However, the bytes are arranged columnwise. Hence, to convert these representations into the 128-bit hex values, the order of bytes should be reversed as the last cell (bottom right) in the state array of AES has been considered the most significat byte in my implementation. For instance, the hex vectors corresponding to the above test vectors in our impementation are as follows:*
 
 ```sh
 plaintext:  x"2a179373117e3de9969f402ee2bec16b"
