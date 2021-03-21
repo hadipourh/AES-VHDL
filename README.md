@@ -2,7 +2,7 @@
 
 VHDL Implementation of AES Algorithm
 
-There are simple VHDL implementations of AES-128 encryption and decryption algorithms in this repository. This is actually my first experience in VHDL implementation!
+There are simple VHDL implementations of AES-128 encryption and decryption algorithms in this repository. This is actually my first experience in the VHDL implementation!
 
 - [AES-VHDL](#aes-vhdl)
   - [What is AES?](#what-is-aes)
@@ -48,7 +48,7 @@ There are simple VHDL implementations of AES-128 encryption and decryption algor
 
 ## What is AES?
 
-There might be a few people who deal with computers and hardwares, but have not heard the name of AES yet which is a famous symmetric block cipher. If you are among those who are not familair with the AES, [1] is a good reference to understand how this algorithm works. This implementation is also based on [1].
+There might be a few people who deal with computers and hardwares, but have not heard the name of AES yet which is a famous symmetric block cipher. If you are among those who are not familiar with the AES, [1] is a good reference to understand how this algorithm works. This implementation is also based on [1].
 
 ## Pipelined VS Loop Unrolled
 
@@ -66,11 +66,11 @@ Therefore the next plaintext must be entered after 10 clock cycles, while in a f
 
 ## Encryption
 
-For each round of AES encryption, a different subkey is used as the round key, which is produced by the keyschedule algorithm. The following shape represents one round of keyschedule algorithm.
+For each round of AES encryption, a different sub-key is used as the round key, which is produced by the keyschedule algorithm. The following shape represents one round of keyschedule algorithm.
 
 ![keyschedule-aes](/Images/keyschedule_round_function.svg)
 
-If someone wants to use a fixed key, it is preferable to calculate all subkeys once and use a lookup table to store subkeys, instead of implementing keyschedule algorithm and recalculate the subkeys frequently. This strategy is especially suitable for software implementations, where memory is not as constrained as hardware implementations. However, in this repository, the keyschedule is implemented based on the loop-unrolled technique to calculate the subkeys on the fly. In other words, there is a dedicated part implementing keyschedule algorithm based on the loop-unrolled technique, to produce the required subkey for each round on the fly.
+If someone wants to use a fixed key, it is preferable to calculate all sub-keys once and use a lookup table to store sub-keys, instead of implementing keyschedule algorithm and recalculate the sub-keys frequently. This strategy is especially suitable for software implementations, where memory is not as constrained as hardware implementations. However, in this repository, the keyschedule is implemented based on the loop-unrolled technique to calculate the sub-keys on the fly. In other words, there is a dedicated part implementing keyschedule algorithm based on the loop-unrolled technique, to produce the required sub-key for each round on the fly.
 
 ### Architecture
 
@@ -144,7 +144,7 @@ Speed Grade: -3
 
 #### Throughput
 
-According to the synthesis report produced by the ISE Designe Suite, the minimum clock period for our implementation when Spartan6-xc6slx75-3fgg676 is used as the target device is 5.813 nano seconds. Therefore, the throughput is equal to:
+According to the synthesis report produced by the ISE Design Suite, the minimum clock period for our implementation when Spartan6-xc6slx75-3fgg676 is used as the target device is 5.813 nano seconds. Therefore, the throughput is equal to:
 `128 bits/(10*5.813 ns) = 2.2 Gb/s`.
 
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
@@ -215,7 +215,7 @@ Speed Grade: -3
 
 #### Throughput
 
-According to the synthesis report produced by the ISE Designe Suite, the minimum clock period for our implementation when Artix7-xc7a200t-3-ffg1156 is used as the target device is 3.397 nano seconds. Therefore the throughput is equal to:
+According to the synthesis report produced by the ISE Design Suite, the minimum clock period for our implementation when Artix7-xc7a200t-3-ffg1156 is used as the target device is 3.397 nano seconds. Therefore the throughput is equal to:
 `128 bits/(10*3.397 ns) = 3.77 Gb/s`.
 
 ### Synthesis Report (Zynq-xc7z100-2-ffg1156)
@@ -287,12 +287,12 @@ Speed Grade: -2
 
 #### Throughput
 
-According to the synthesis report produced by the ISE Designe Suite, the minimum clock period for our implementation when Zynq-xc7z100-2-ffg1156 is used as the target device is 3.369 nano seconds. Therefore the throughput is equal to `128 bits/(10*3.369 ns) = 3.80 Gb/s`.
+According to the synthesis report produced by the ISE Design Suite, the minimum clock period for our implementation when Zynq-xc7z100-2-ffg1156 is used as the target device is 3.369 nano seconds. Therefore the throughput is equal to `128 bits/(10*3.369 ns) = 3.80 Gb/s`.
 Note that the throughput for a fully pipelined design operating in ECB mode is `128 bits/(3.369 ns) = 38 Gb/s`.
 
 ### Simulation
 
-In order to verify the correctness of the encryption's implementation, a testbech has been prepared, to compare two different ciphertexts obtained from this implementation, with the expected true ciphertexts taken from [1] as the reference. This implemetnation passes the verification and you can see a capture of the waveform obtined from the simultation via ISim simulator, in the following picture.
+In order to verify the correctness of the encryption's implementation, a testbech has been prepared, to compare two different ciphertexts obtained from this implementation, with the expected true ciphertexts taken from [1] as the reference. This implementation passes the verification and you can see a capture of the waveform obtained from the simulation via ISim simulator, in the following picture.
 
 ![AES-Encryption Simulation](/Images/capture_simulation_aes_enc.png)
 
@@ -302,7 +302,7 @@ To validate the correctness of this implementation, I've used the test vectors p
 
 [https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf](https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf)
 
-For example, according to the NIST reference, the encryption of plaintext `6BC1BEE2 2E409F96 E93D7E11 7393172A` undet the key `2B7E1516 28AED2A6 ABF71588 09CF4F3C`, must yield the ciphertext: `3AD77BB4 0D7A3660 A89ECAF3 2466EF97`. *It should be noted that in these representations each byte is denoted by two hex digits. However, the bytes are arranged columnwise. Hence, to convert these representations into the 128-bit hex values, the order of bytes should be reversed as the last cell (bottom right) in the state array of AES has been considered the most significat byte in my implementation. For instance, the hex vectors corresponding to the above test vectors in our impementation are as follows:*
+For example, according to the NIST reference, the encryption of plaintext `6BC1BEE2 2E409F96 E93D7E11 7393172A` under the key `2B7E1516 28AED2A6 ABF71588 09CF4F3C`, must yield the ciphertext: `3AD77BB4 0D7A3660 A89ECAF3 2466EF97`. *It should be noted that in these representations each byte is denoted by two hex digits. However, the bytes are arranged column-wise. Hence, to convert these representations into the 128-bit hex values, the order of bytes should be reversed as the last cell (bottom right) in the state array of AES has been considered the most significant byte in my implementation. For instance, the hex vectors corresponding to the above test vectors in our implementation are as follows:*
 
 ```sh
 plaintext:  x"2a179373117e3de9969f402ee2bec16b"
@@ -314,9 +314,9 @@ ciphertext: x"97ef6624f3ca9ea860367a0db47bd73a"
 
 In order to implement the decryption algorithm of AES-128, one must invert the SubBytes, ShiftRows and MixColumns operations. Let's depict the inverse of SubBytes, ShiftRows and MixColumns operations by InvSubBytes, InvShiftRows and InvMixColumns respectively
 
-While the area required to implement InvSubBytes and InvShiftRows are the same as the area required for implementation of SubBytes and ShiftRows respectively, the hardware implementation of InvMixColumns is a challenging problem since it's matrix is more dense than the MixColumn's matrix and therefore, uses more area than the MixColumns. In this implemenation we use a technique taken from page 55 of [1] to overcome this problem. According to this technique, InvMixColumns can be implemented as a simple preprocessing step followed by the MixColumn step.
+While the area required to implement InvSubBytes and InvShiftRows are the same as the area required for implementation of SubBytes and ShiftRows respectively, the hardware implementation of InvMixColumns is a challenging problem since it's matrix is more dense than the MixColumn's matrix and therefore, uses more area than the MixColumns. In this implementation we use a technique taken from page 55 of [1] to overcome this problem. According to this technique, InvMixColumns can be implemented as a simple preprocessing step followed by the MixColumn step.
 
-For a given key, the subkeys must be used in reverse order to decrypt a ciphertext. Therefore, the encryption's keyschedule can not be used for the decryption and a different keyschedule algorithm is needed. If one has access to the last round subkey and perform the inverse of keyschedule round function on it repeatedly, subkeys are obtained in reverse order. In our implementation for decryption algorithm, it is assumed that the last round subkey is stored as the decryption key for the later reuse and it is assumed to be the input of the decryption's keyschedule algorithm.
+For a given key, the sub-keys must be used in reverse order to decrypt a ciphertext. Therefore, the encryption's keyschedule can not be used for the decryption and a different keyschedule algorithm is needed. If one has access to the last round sub-key and perform the inverse of keyschedule round function on it repeatedly, sub-keys are obtained in reverse order. In our implementation for decryption algorithm, it is assumed that the last round sub-key is stored as the decryption key for the later reuse and it is assumed to be the input of the decryption's keyschedule algorithm.
 
 ### Architecture
 
@@ -390,7 +390,7 @@ Speed Grade: -3
 
 #### Throughput
 
-According to the synthesis report produced by the ISE Designe Suite, the minimum clock period for our implementation when Spartan6-xc6slx75-3fgg676 is used as the target device is 6.740 nano seconds. Therefore the throughput is equal to:
+According to the synthesis report produced by the ISE Design Suite, the minimum clock period for our implementation when Spartan6-xc6slx75-3fgg676 is used as the target device is 6.740 nano seconds. Therefore the throughput is equal to:
 `128 bits/(10*6.740 ns) = 1.90 Gb/s`.
 
 ### Synthesis Report (Artix7-xc7a200t-3-ffg1156)
@@ -535,7 +535,7 @@ According to the synthesis report produced by the ISE Designe Suite, the minimum
 
 ### Simulation
 
-In order to verify the correctness of the decryption's implementation, a testbech has been prepared, which in the equality of the obtained plaintext with the refernce values taken from [1], is checked for two different ciphertexts and keys. As you can see in the following picture, this implemetnation passes the verification and it works correctly.
+In order to verify the correctness of the decryption's implementation, a testbech has been prepared, which in the equality of the obtained plaintext with the refernce values taken from [1], is checked for two different ciphertexts and keys. As you can see in the following picture, this implementation passes the verification and it works correctly.
 
 ![AES-Decryption Simulation](/Images/capture_simulation_aes_dec.png)
 
