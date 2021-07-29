@@ -62,7 +62,7 @@ In contrast to pipelining, in a loop-unrolling technique one or multiple rounds 
 
 ![AES-loop-unrolled-picture](/Images/loop_unrolled_aes.svg)
 
-Therefore the next plaintext must be entered after 10 clock cycles, while in a fully pipelined architecture, in each clock cycle one new plaintext can be entered to the process of encryption. Although pipelined architecture has more throughput than the loop-unrolled architecture, it uses more area than the loop-unrolled one. Therefore fully pipelined architecture offer the highest performance and is suitable for the cases which in the area is not constrained. In contrast to fully pipelined architecture, the smallest case of loop-unrolled, which is sometimes called the round based implementation, uses the lowest area and is suitable for area constrained applications. This implementation is a loop-unrolled one, however, converting it to it's pipelined alternative is not too hard.
+Therefore the next plaintext must be entered after 10 clock cycles, while in a fully pipelined architecture, in each clock cycle one new plaintext can be entered to the process of encryption. Although pipelined architecture has more throughput than the loop-unrolled architecture, it uses more area than the loop-unrolled one. Therefore fully pipelined architecture offer the highest performance and is suitable for the cases in which the area is not constrained. In contrast to fully pipelined architecture, the smallest case of loop-unrolled, which is sometimes called the round based implementation, uses the lowest area and is suitable for area constrained applications. This implementation is a loop-unrolled one, however, converting it to it's pipelined alternative is not too hard.
 
 ## Encryption
 
@@ -535,7 +535,7 @@ According to the synthesis report produced by the ISE Designe Suite, the minimum
 
 ### Simulation
 
-In order to verify the correctness of the decryption's implementation, a testbech has been prepared, which in the equality of the obtained plaintext with the refernce values taken from [1], is checked for two different ciphertexts and keys. As you can see in the following picture, this implementation passes the verification and it works correctly.
+In order to verify the correctness of the decryption's implementation, a testbech has been prepared in which the equality of the derived plaintext with the refernce values taken from [1] is checked for two different ciphertexts and keys. As you can see in the following picture, this implementation passes the verification and hence it works correctly.
 
 ![AES-Decryption Simulation](/Images/capture_simulation_aes_dec.png)
 
