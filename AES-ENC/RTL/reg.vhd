@@ -27,15 +27,17 @@ entity reg is
 end reg;
 
 architecture behavioral of reg is
-	signal current_stata, next_state : std_logic_vector(size - 1 downto 0);
+	signal reg_data : std_logic_vector(Size -1 downto 0);
 begin
-	next_state <= d;
-	p1 : process(clk) is		
+	-- output interface
+	q <= reg_data;
+	--*** seq proc ***--
+	flop_data : process(clk) is		
 	begin
-		if (clk'event and clk = '1') then
-			current_stata <= next_state;
-		end if;
-	end process p1;
-	q <= current_stata;	
+		if (rising_edge(clk) then
+			reg_data <= d;
+	    end if;
+	end process flop_data;
 end architecture behavioral;
+
 
